@@ -7,6 +7,7 @@ import {
 import SessionList from "./components/sessions/SessionList";
 import MapChart from "./components/maps/MapChart";
 import SpeakerProfile from "./components/speakers/Speaker";
+import Session from "./components/sessions/Session";
 
 import "./styles.css";
 import { initializeIcons } from '@uifabric/icons';
@@ -35,8 +36,8 @@ function App() {
           <Route path="/sessions">
             <SessionList />
           </Route>
-          <Route path="/speaker/:id" component={SpeakerProfile}>
-          </Route>
+          <Route path="/speaker/:id" component={SpeakerProfile}></Route>
+          <Route path="/session/:id" component={Session}></Route>
         </Switch>
       </Router>
     </div>

@@ -1,31 +1,17 @@
-.datePicker {
-    width: 160px;
-}
-.clearDatePickerButton, .clearSpeakerButton, .clearWordButton {
-    margin-top: 4px;
-}
-.speakerDropDown {
-    width: 200px;
-}
-
-.sessionList {
+.sessionItem {
     color: #666;
     font-family: open sans,sans-serif;
     font-size: 15px;
     line-height: 24px;
     font-weight: 400;
-}
-.sessionItem {
+    max-width: 800px;
     padding: 24px;
     margin-top: 16px;
     border: 1px solid rgba(17,17,17,0.1);
     border-radius: 4px;
 }
-.sessionSpeaker {
-    color: #01a4ef;
-    font-weight: 800;
-    margin-right: 20px;
-    cursor: pointer;
+.sessionSpeakers {
+    margin-top: 48px;
 }
 .sessionTitle {
     color: #666;
@@ -39,9 +25,10 @@
     text-decoration: none;
 }
 .sessionDescription {
-    margin-bottom: 6px;
+    margin-top: 16px;
+    margin-bottom: 16px;
 }
-.sessionTime, .sessionTimespan {
+.sessionTime, .sessionTimespan, .sessionCalendarLink {
     display: inline-block;
     margin-right: 10px;
 }

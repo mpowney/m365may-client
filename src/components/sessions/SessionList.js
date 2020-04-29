@@ -1,5 +1,5 @@
 import React from 'react';
-import { DatePicker, DayOfWeek, DefaultButton, Dropdown, Callout, TextField, Shimmer } from '@fluentui/react';
+import { Icon, DatePicker, DayOfWeek, DefaultButton, Dropdown, Callout, TextField, Shimmer } from '@fluentui/react';
 import { AnimationStyles } from '@fluentui/react/lib/Styling';
 
 import axios from 'axios';
@@ -281,7 +281,7 @@ class SessionList extends React.Component {
                                     return <span className={`sessionSpeaker speaker-${speaker.id}`} key={speaker.id} onClick={() => this.clickSpeaker(speaker.id)}>{speaker.name}</span>
                                 })}
                                 <div className="sessionTitle">
-                                    <a target="_top" href={`https://click.m365may.com/redirect/session/${session.id}`}>{session.title}</a>
+                                    <a target="_top" href={`https://www.m365may.com/session-details/${session.id}`}>{session.title}</a>
                                 </div>
                                 <div className="sessionDescription">
                                     {session.description}
@@ -291,6 +291,9 @@ class SessionList extends React.Component {
                                 </div>
                                 <div className="sessionTimespan">
                                     <span>{DateTime.fromISO(session.endsAt).diff(DateTime.fromISO(session.startsAt), 'minutes').minutes} minutes</span>
+                                </div>
+                                <div className="sessionCalendarLink">
+                                    <span><a href={`https://click.m365may.com/calendar/session/${session.id}?ical`}><Icon iconName="CalendarReply" /> Add to calendar</a></span>
                                 </div>
                             </div>);
 

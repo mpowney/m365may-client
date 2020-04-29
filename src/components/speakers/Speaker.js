@@ -39,7 +39,7 @@ class SpeakerProfile extends React.Component {
 
         
         return (
-            <div className="speakerProfile" style={{border: this.props.disableBorder ? `none` : undefined }}>
+            <div className="speakerProfile" style={{border: this.props.disableBorder ? `none` : undefined, padding: this.props.disablePadding ? `0`: undefined }}>
                 { this.state.isLoading ? 
                 <div className="ms-Grid" dir="ltr">
                     <div className="ms-Grid-row">
