@@ -1,0 +1,94 @@
+.datePicker {
+    width: 160px;
+}
+.clearDatePickerButton, .clearSpeakerButton, .clearWordButton {
+    margin-top: 4px;
+}
+.speakerDropDown {
+    width: 200px;
+}
+
+.sessionList {
+    color: #666;
+    font-family: open sans,sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+}
+.sessionItem {
+    padding: 24px;
+    margin-top: 16px;
+    border: 1px solid rgba(17,17,17,0.1);
+    border-radius: 4px;
+}
+.sessionSpeaker {
+    color: #01a4ef;
+    font-weight: 800;
+    margin-right: 20px;
+    cursor: pointer;
+}
+.sessionTitle {
+    color: #666;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    font-size: 20px;
+}
+.sessionTitle a, .sessionTitle a:visited {
+    color: #666;
+    font-weight: 600;
+    text-decoration: none;
+}
+.sessionDescription {
+    margin-bottom: 6px;
+}
+.sessionTime, .sessionTimespan, .sessionCalendarNowLive, .sessionCalendarLink {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.sessionTime span {
+    background-color: #7fba00;
+    color: #fff;
+    padding: 2px 8px;
+}
+
+.sessionTimespan span {
+    background-color: #ffb901;
+    color: #fff;
+    padding: 2px 8px;
+}
+
+.sessionCalendarLink span {
+    background-color: #01a4ef;
+    color: #fff;
+    padding: 2px 8px;
+}
+
+.sessionCalendarLink span a {
+    color: #fff;
+    text-decoration: none;
+}
+.sessionCalendarLink span i {
+    font-size: 12px;
+    padding-right: 6px;
+}
+
+.sessionCalendarNowLive {
+    position: relative;
+    background-color: #f25022;
+    color: #fff;
+}
+.sessionCalendarNowLive span a {
+    color: #fff;
+    padding-left: 24px;
+    padding: 2px 8px 2px 28px;
+    text-decoration: none;
+}
+.videoIcon {
+    top: 0;
+    left: 6px;
+    position: absolute;
+}
+.videoIconHidden {
+    display: none;
+}
