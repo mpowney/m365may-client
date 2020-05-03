@@ -6,6 +6,8 @@ import axios from 'axios';
 import './SessionList.css';
 import SpeakerProfile from '../speakers/Speaker';
 
+import { SESSIONS_JSON } from './../../index';
+
 class SessionList extends React.Component {
 
     constructor(props) {
@@ -57,7 +59,7 @@ class SessionList extends React.Component {
     }
 
     componentDidMount() {
-        axios.get('https://click.m365may.com/data/sessions').then( response => {
+        axios.get(SESSIONS_JSON).then( response => {
             this.setState({
                 isLoading: false,
                 sessionData: response.data[0].sessions

@@ -1,0 +1,2407 @@
+[
+    {
+      "groupId": null,
+      "groupName": "All",
+      "sessions": [
+        {
+          "questionAnswers": [],
+          "id": "190959",
+          "title": "10 Everyday Accessibility Features in Office 365 that Everyone can use",
+          "description": "10 features of Windows 10 and Office 365 that you can use today that can make your work more accessible to others and even to yourself!",
+          "startsAt": "2020-05-19T03:00:00Z",
+          "endsAt": "2020-05-19T03:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "a50b6adb-c0bf-48ee-97d0-5898ca683fd2",
+              "name": "Brett Gilbertson"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "199649",
+          "title": "7 Tips to Improve Remote Work and Contain Sprawl with Microsoft Teams (Sponsor)",
+          "description": "With the coronavirus driving people to work from home in record numbers, it’s more important than ever for organisations to optimise their digital, modern workplace. Microsoft Teams is the hub for teamwork to keep your employees engaged, regardless of location. \r\nHow can you ensure that you make it easy for your organisation to maximise Microsoft Teams and minimise content sprawl? What type of information is being stored in them (and is it backed up)? What will happen to these teams once it’s not being used anymore? \r\nJoin this session and we will walk you through relevant tips to accelerate Microsoft Teams success for remote work. ",
+          "startsAt": "2020-05-14T00:00:00Z",
+          "endsAt": "2020-05-14T01:00:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "7bfa4b1b-87c0-47d1-88a0-41fc7e4427c2",
+              "name": "Shaun Pitt"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "199674",
+          "title": "Accelerate Microsoft Teams Adoption through enriched end-user experience & governance! (Sponsor)",
+          "description": "In this presentation, we will learn new ways to accelerate Microsoft Teams Adoption and Governance with Powell Teams. By attending this sessions, you can expect to come away with:  \r\n - Best practices to control Teams sprawl and overall Teams creation process  \r\n - Top insight on selecting a governance strategy \r\n - First-hand look at add-in application Powell Teams \r\n - Access to an exclusive Powell Teams Free trial  ",
+          "startsAt": "2020-05-12T04:00:00Z",
+          "endsAt": "2020-05-12T04:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "b57c5005-f764-4dcd-b978-3473d0944698",
+              "name": "Pierre Delage"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "192845",
+          "title": "All about documents in O365 and SharePoint",
+          "description": "Facing the important number of document related applications in Office 365 (SharePoint, O365 Groups, One Drive, Teams, Yammer), which one is the best to use for which kind of document? When to use them?\r\nOnce clarified this question, we will focus on SharePoint, the central content manager of O365, and study its capabilities as a DMS (document management system) in comparison with the other classical vendors.\r\n\r\nFor IT Decision maker, get a clear view about which tool to promote to end users.\r\nGet a reusable governance plan  for document management.\r\nGet successful SharePoint projects by designing sustainable solutions.\r\n",
+          "startsAt": "2020-05-08T05:00:00Z",
+          "endsAt": "2020-05-08T05:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "6c6905aa-6922-4a0c-92f5-cf64772cca48",
+              "name": "Sébastien PAULET"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197820",
+          "title": "An Introduction into the Fundamentals of the Microsoft Graph API",
+          "description": "There is a lot of functionality that is provided by the Microsoft 365 ecosystem, however, businesses from time to time will require custom solutions or integrations to be developed.\r\n\r\nWhile there are many out-of-the-box solutions available (Logic Apps, Power Automate, Graph Toolkit), it’s important to understand the underlying API framework, so custom solutions can be developed outside of these tool-sets if the requirement arises.\r\n\r\nThe problem is that the learning curve is quite steep, especially if you don’t a good understanding of HTTP. This talk will focus on equipping you with all the information to get you up and running:\r\n\r\n1.\tAn Introduction to HTTP, JSON, REST and OAUTH\r\n2.\tAuthenticating with Microsoft Graph\r\n3.\tNavigating the Microsoft Graph URL Endpoints\r\n\r\n",
+          "startsAt": "2020-05-15T22:45:00Z",
+          "endsAt": "2020-05-15T23:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "35b5d13d-2da6-4751-b2ba-b4718c826458",
+              "name": "Michael Zanatta"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198163",
+          "title": "An introduction to self-publishing for business",
+          "description": "An introduction to the writing and publishing process, including the benefits of publishing a book for a business, how to choose what to write about, the publishing steps, the different publishing options and common pitfalls to avoid. ",
+          "startsAt": "2020-05-06T00:00:00Z",
+          "endsAt": "2020-05-06T01:30:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "2fe48fe0-5b0f-44d7-a58d-b159f48f5a22",
+              "name": " Michael Hanrahan"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "188145",
+          "title": "Automate Office 365 Administration with Azure Automation",
+          "description": "How can we leverage Azure Automation in order to automate Office 365 administration.\r\n\r\nDemos will be shown for this session :)",
+          "startsAt": "2020-05-16T05:00:00Z",
+          "endsAt": "2020-05-16T06:00:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "d53e00e4-681a-46b5-a68f-16c3e23dc3f4",
+              "name": "Sylver SCHORGEN"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198078",
+          "title": "Better Together: Extend and Customise Microsoft Teams with Power Apps",
+          "description": "Power Apps is a service for building custom business apps that connect to your data and work across web and mobile (and Teams!) without the time and expense of custom software development. That means you can create apps with no code and embed them in Teams, making it easy for users to access and use apps right where they need them. \r\n\r\nIn this session you will learn how you can use Power Apps to extend and customise Microsoft Teams. We will explore a range of use cases which can be enabled by bringing Power Apps and Teams together - from replacing paper-based forms, to simplifying and automating business processes, through to enabling collaboration on complex sales cycles.",
+          "startsAt": "2020-05-12T07:00:00Z",
+          "endsAt": "2020-05-12T08:00:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "bcf1d581-50a6-48d2-a9bb-889bf7a20bae",
+              "name": "Lisa Crosbie"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197814",
+          "title": "Build enriched dashboards for Office 365 Adoption using Microsoft Graph, Activity API and Power BI",
+          "description": "So you have just rolled out and implemented Microsoft Teams, SharePoint, Exchange etc. and want to know how is it faring for your organization. You could get the overall reports from Admin center for last six months but is that enough? How about some advanced filtering with some rich data captures about the activities and sharing operations? This are some of the quicker answers we are looking for. In this session, we will look at how to quickly build a localized data store by capturing Office 365 audit logs and enriching to display this information in Power BI for more advanced reporting.\r\n",
+          "startsAt": "2020-05-26T08:00:00Z",
+          "endsAt": "2020-05-26T08:30:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "40daf344-7f3b-4b1c-bb3d-5ec21d1b319b",
+              "name": "Asish Padhy"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197812",
+          "title": "Build smarter, quicker and intelligent collaboration with Microsoft Teams and AI",
+          "description": "Microsoft Teams acts as the teamwork and collaboration hub for an organization. Besides just collaborating, organizations can use the extensible app platform in Teams to build quicker and smarter solutions with simplified and integrated user experience. With SaaS integrations from Power Platform and Azure Cognitive Services, there are so many options now that allow Power Users or Developers to build AI solutions. During this session, we will look at each of the options while understanding the various technical and business drivers to build smarter integrations with Teams using Power Platform, Bots and Virtual Assistants. \r\n",
+          "startsAt": "2020-05-18T05:00:00Z",
+          "endsAt": "2020-05-18T05:30:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "40daf344-7f3b-4b1c-bb3d-5ec21d1b319b",
+              "name": "Asish Padhy"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197823",
+          "title": "Building a smart Teams Bot, With no code!",
+          "description": "In this session come on a journey with UcMadScientist as he builds a cognitive bot to answer FAQ's and pull data from a wiki, without needing any coding skills or Power Apps. Using free Azure resources see how we can easily read, understand and integrate this data into a variety of platforms including a simple Teams connector.\r\nWe then take it a step further by customizing responses and even publishing the bot as an app.",
+          "startsAt": "2020-05-18T00:00:00Z",
+          "endsAt": "2020-05-18T00:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "831112fa-50be-411e-8402-f54ca32e4da0",
+              "name": "James Arber"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "196589",
+          "title": "Building apps super fast using the Microsoft Graph Toolkit",
+          "description": "The Microsoft Graph Toolkit is allowing Graph powered apps to be created incredibly quickly. Leave this session knowing what the Microsoft Graph is and how write your first Graph powered web app using the Microsoft Graph Toolkit. Basic knowledge of HTML is all that's required to get the most from this session.",
+          "startsAt": "2020-05-11T03:00:00Z",
+          "endsAt": "2020-05-11T04:00:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "9dad9ee2-63e0-4749-b8e1-7c63812735cb",
+              "name": "Cameron Dwyer"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198134",
+          "title": "Building Trust in Times of Crisis with Yammer and  Microsoft 365",
+          "description": "As Peter Drucker said \"Culture eats strategy for breakfast\", but how do you build culture and trust in the COVID age? \r\nLearn how Yammer networks can showcase culture and build trust at all levels of an organisation. Matt will share the lessons learned from driving community engagement and coaching colleagues to create a thriving network that delivers benefits as well as a great experience.\r\nYou'll learn about the models and approaches to help you shape the capability and behaviours people will need to flourish in the digital workplace.\r\n\r\nYou'll takeaway practical ways to:\r\n- Build engagement and capability across your workforce\r\n- Understand how trust is demonstrated within a network\r\n- Encourage and coach leaders to shift from spans of control to spans of influence\r\n\r\n",
+          "startsAt": "2020-05-07T23:30:00Z",
+          "endsAt": "2020-05-08T00:30:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "23722180-faf7-4706-819b-24b68b43e515",
+              "name": "Matthew Dodd"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198195",
+          "title": "Can you simplify Microsoft Teams adoption?",
+          "description": "Can you simplify the adoption process? What actually makes up a good Microsoft Teams adoption program? Are you really ready for Microsoft Teams? Interested in hearing about adoption stories from the field? \r\n\r\nJoin us this for a discussion around adoption and to hear about simple, sustainable adoption programs & stories from the field with Kirsty McGrath (MVP).",
+          "startsAt": "2020-05-21T04:20:00Z",
+          "endsAt": "2020-05-21T05:05:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "2d82939c-aea4-4483-9ce5-bc6b179e5c34",
+              "name": "Kirsty McGrath"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "199708",
+          "title": "Change Management tools that help drive project success",
+          "description": "This is not a 'Change Managmenet 101' session. I am going to show a few tools I use to drive great success in Microsoft 365 projects and discuss examples of how they were used.",
+          "startsAt": "2020-05-29T02:00:00Z",
+          "endsAt": "2020-05-29T02:30:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "3a3bd08a-0747-4b30-a35a-8f3ed2931cdc",
+              "name": "Megan Strant"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197109",
+          "title": "Charting a virus - COVID-19 in New Zealand",
+          "description": "When COVID-19 case numbers were still low in New Zealand, there were no visuals to illustrate how the virus was spreading. I set out to build a dashboard using the official data from the government web site. I'll walk you through the challenges I faced and the workarounds I used with Excel and Power BI. If you've ever looked at a COVID-19 chart, this session is for you.",
+          "startsAt": "2020-04-30T23:20:00Z",
+          "endsAt": "2020-05-01T00:05:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "a9b6212f-8a22-4762-b754-0ad38d1d967c",
+              "name": "Ingeborg Hawighorst"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197817",
+          "title": "Cloud Voice with Microsoft Teams",
+          "description": "Now more than ever organisations want to ensure that their users can work remotely. Microsoft Teams provides the perfect platform to achieve this, but what about your phone calls? Find out how to make PSTN phone calls from Microsoft Teams.",
+          "startsAt": "2020-05-07T03:00:00Z",
+          "endsAt": "2020-05-07T04:00:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "be5b5df0-2ca9-4298-bb43-e380436995c7",
+              "name": "Damien Margaritis"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197633",
+          "title": "Collaboration for Community Organisations",
+          "description": "Office 365 implementation Case Study.13 social services organisation wanted a better way to work together for the good children in the Canterbury community. A project was launched to create a collaboration platform using SharePoint and Microsoft Teams. This project had many challenges but ultimately a great outcome with widespread community benefit.",
+          "startsAt": "2020-05-06T04:10:00Z",
+          "endsAt": "2020-05-06T05:10:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "1465bc6a-c8c8-490f-a34a-553e3506ff24",
+              "name": "Steve Knutson"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198202",
+          "title": "Collaboration, Data, Process and integrating the right information system",
+          "description": "How integrating the right Enterprise Information System succeed Business and Technology? Data?  Processes? Management? or Choosing a new way of working?\r\n\r\nThis session will cover:\r\n- Translating the needs of technology from the IT perspective into the needs of the business.\r\n- Understanding the none-technical stakeholder in today business transformation projects defines success. \r\n\r\n\r\n",
+          "startsAt": "2020-05-27T07:00:00Z",
+          "endsAt": "2020-05-27T07:30:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "7a8fd6b8-8602-4ed8-84bc-ade569b470e7",
+              "name": "Samira Farhoodi"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "199817",
+          "title": "Collaborative & Visual Task Management with Kudos Boards in O365 (Sponsor)",
+          "description": "Are you looking for an way to keep your team focused and on track while working remotely? In this session, we explore Kudos Boards' Kanban, MindMap, Timeline and Activity based task and project management for individuals, teams and invited external parties. Kudos Boards integrates seamlessly with O365, including as a collaborative workspace in MS Teams, in Outlook, OneDrive and Sharepoint. Drive adoption of Teams, increase productivity, create transparency and get tasks done. Learn how to start your free trial and make the most of your Kudos Boards experience.  ",
+          "startsAt": "2020-05-12T02:00:00Z",
+          "endsAt": "2020-05-12T03:00:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "260cb1fb-c330-4aae-a6c5-9d445716dd59",
+              "name": "Hailey Berkhout"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198218",
+          "title": "Come on all you women, we need to hear your voices",
+          "description": "Hear me roar! \r\n\r\nOver that past 5 years I’ve been involved in organising events. From local Meetups of 30 people to 650 person conferences. It’s been an amazing space to be in but there is one area where I’d like to see improvement and that’s in the number of female speakers that I meet. \r\n\r\nWhenever we do a call out for speakers (and even if we don’t) we are inundated with male speakers putting forward their ideas for a talk but there are so few female applications. It breaks my heart. \r\n\r\nBut I realised I am one of those people that don’t put my hand up to speak. What!? \r\n\r\nSo I wanted to talk about what holds us back, why we should and how to take those first small steps towards letting the rest of the world hear you (me) roar. \r\n",
+          "startsAt": "2020-05-04T02:00:00Z",
+          "endsAt": "2020-05-04T02:50:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "9635db52-59fa-4cbe-812e-a38de428f3d1",
+              "name": "Sarah Mitchell"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198538",
+          "title": "Coming Out the Other Side 1: It is not one size fits all",
+          "description": "1 of 5 in a series of short workshops.\r\n\r\nWhile this has been a time of stress and challenges, for some (maybe many) this has been an opportunity to take a step back and reflect on what has really been important and of priority for our organisations.\r\nIn this presentation, we look at getting prepared for coming out the other side of this COVID-19 lockdown from an organisational perspective.\r\nThere is lots of talk about the ‘new normal’ or referring to new ways of working (post-COVID), but in reality, that ‘new normal’ will be specific to each organisation. This presentation will provide a framework for thinking about how to be as prepared as possible for post-COVID changes.\f",
+          "startsAt": "2020-04-30T23:00:00Z",
+          "endsAt": "2020-04-30T23:15:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "0c64fbab-b542-498b-aace-fd08066cfc1d",
+              "name": "Amanda Broomhall"
+            },
+            {
+              "id": "7f20eabe-0c22-402d-8fc0-6a8db950ecb4",
+              "name": "Cairo Walker"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "199414",
+          "title": "Coming Out the Other Side 2: It is not one size fits all",
+          "description": "2 of 5 in a series of short workshops.\r\n\r\nWhile this has been a time of stress and challenges, for some (maybe many) this has been an opportunity to take a step back and reflect on what has really been important and of priority for our organisations.\r\nIn this presentation, we look at getting prepared for coming out the other side of this COVID-19 lockdown from an organisational perspective.\r\nThere is lots of talk about the ‘new normal’ or referring to new ways of working (post-COVID), but in reality, that ‘new normal’ will be specific to each organisation. This presentation will provide a framework for thinking about how to be as prepared as possible for post-COVID changes.\f",
+          "startsAt": "2020-05-07T23:00:00Z",
+          "endsAt": "2020-05-07T23:15:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "0c64fbab-b542-498b-aace-fd08066cfc1d",
+              "name": "Amanda Broomhall"
+            },
+            {
+              "id": "7f20eabe-0c22-402d-8fc0-6a8db950ecb4",
+              "name": "Cairo Walker"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "199415",
+          "title": "Coming Out the Other Side 3: It is not one size fits all",
+          "description": "3 of 5 in a series of short workshops.\r\n\r\nWhile this has been a time of stress and challenges, for some (maybe many) this has been an opportunity to take a step back and reflect on what has really been important and of priority for our organisations.\r\nIn this presentation, we look at getting prepared for coming out the other side of this COVID-19 lockdown from an organisational perspective.\r\nThere is lots of talk about the ‘new normal’ or referring to new ways of working (post-COVID), but in reality, that ‘new normal’ will be specific to each organisation. This presentation will provide a framework for thinking about how to be as prepared as possible for post-COVID changes.\f",
+          "startsAt": "2020-05-14T23:00:00Z",
+          "endsAt": "2020-05-14T23:15:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "0c64fbab-b542-498b-aace-fd08066cfc1d",
+              "name": "Amanda Broomhall"
+            },
+            {
+              "id": "7f20eabe-0c22-402d-8fc0-6a8db950ecb4",
+              "name": "Cairo Walker"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "199416",
+          "title": "Coming Out the Other Side 4: It is not one size fits all",
+          "description": "4 of 5 in a series of short workshops.\r\n\r\nWhile this has been a time of stress and challenges, for some (maybe many) this has been an opportunity to take a step back and reflect on what has really been important and of priority for our organisations.\r\nIn this presentation, we look at getting prepared for coming out the other side of this COVID-19 lockdown from an organisational perspective.\r\nThere is lots of talk about the ‘new normal’ or referring to new ways of working (post-COVID), but in reality, that ‘new normal’ will be specific to each organisation. This presentation will provide a framework for thinking about how to be as prepared as possible for post-COVID changes.\f",
+          "startsAt": "2020-05-21T23:00:00Z",
+          "endsAt": "2020-05-21T23:15:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "0c64fbab-b542-498b-aace-fd08066cfc1d",
+              "name": "Amanda Broomhall"
+            },
+            {
+              "id": "7f20eabe-0c22-402d-8fc0-6a8db950ecb4",
+              "name": "Cairo Walker"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "199417",
+          "title": "Coming Out the Other Side 5: It is not one size fits all",
+          "description": "5 of 5 in a series of short workshops.\r\n\r\nWhile this has been a time of stress and challenges, for some (maybe many) this has been an opportunity to take a step back and reflect on what has really been important and of priority for our organisations.\r\nIn this presentation, we look at getting prepared for coming out the other side of this COVID-19 lockdown from an organisational perspective.\r\nThere is lots of talk about the ‘new normal’ or referring to new ways of working (post-COVID), but in reality, that ‘new normal’ will be specific to each organisation. This presentation will provide a framework for thinking about how to be as prepared as possible for post-COVID changes.\f",
+          "startsAt": "2020-05-28T23:00:00Z",
+          "endsAt": "2020-05-28T23:15:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "0c64fbab-b542-498b-aace-fd08066cfc1d",
+              "name": "Amanda Broomhall"
+            },
+            {
+              "id": "7f20eabe-0c22-402d-8fc0-6a8db950ecb4",
+              "name": "Cairo Walker"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197012",
+          "title": "Content for everyone - Basics for accessible writing",
+          "description": "With some basic techniques you can make your intranet content great for everyone and improve accessibility. Get an understanding of why accessibility matters and practical advice for improving your content.",
+          "startsAt": "2020-05-19T04:00:00Z",
+          "endsAt": "2020-05-19T04:15:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "990f1b24-b1a9-43c3-bd72-7f99ea63668f",
+              "name": "Rebecca Jackson"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198743",
+          "title": "Content Types are not Dead!",
+          "description": "Contrary to the belief of some, content types still serve a vital role in defining the information architecture of your SharePoint environment. \r\n\r\nIf you don't believe me, join my session and I'll happily convince you!\r\n\r\nDuring this session, we'll discuss all things content types, including the many benefits of implementing a logically though-out  structure and content type best practices, as well as taking a look at the modern Content Type Gallery and Managed Metadata interface... there might even be some clever little tricks in store for you too!",
+          "startsAt": "2020-05-25T01:15:00Z",
+          "endsAt": "2020-05-25T02:15:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "3a389bb6-c0d5-47b5-9248-2263760e032c",
+              "name": "Russ Norton"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198087",
+          "title": "Create a no code chatbot in Teams with Power Virtual Agents",
+          "description": "Power Virtual Agents empowers subject matter experts to build intelligent conversational bots, using a guided, no-code graphical interface. Your bot can handle Q&A in a natural conversational style, but Power Virtual Agents chatbots can do more than just Q&A - they can also be connected to your business systems to  take action - retrieve an invoice, process a return, check a status and more. And of course, your chatbot can do all this from the chat function inside Microsoft Teams.\r\n\r\nThis session is an introduction to Power Virtual Agents - no experience needed and no code needed. You will learn how to get started and create a bot, design and iterate your topics, connect your bot to your other business systems, and publish and run it from Teams. ",
+          "startsAt": "2020-05-18T07:00:00Z",
+          "endsAt": "2020-05-18T08:00:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "bcf1d581-50a6-48d2-a9bb-889bf7a20bae",
+              "name": "Lisa Crosbie"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198137",
+          "title": "Create an intelligent digital workplace - Bring Microsoft 365 solutions to Outlook (Sponsor)",
+          "description": "Intelligently manage your emails using OnePlaceMail from any Microsoft Outlook environment including Outlook Web Browser, Windows, macOS and iOS/Android phones in a modern workplace. \r\n \r\nThis session includes demonstrations and discussion on:\r\n- Real-world challenges faced by businesses in a modern workplace and how these can be solved by bringing Microsoft 365 solutions to where people work: Inside Microsoft Outlook, Office (Word, Excel, PowerPoint), Adobe and Windows Explorer.  Minimise change for end-users for greater productivity and Office 365 adoption \r\n- How to reduce email and shift conversations from Outlook to Microsoft Teams for greater collaboration and faster decision making  \r\n- How to personalise business systems such as Legal Matter Management and Project Management for greater end-user engagement and achieve more intelligent information management and compliance across your organisation. \r\n \r\nOnePlace Solutions is bringing Microsoft 365 solutions to where you work, enabling people in business to more, simply.  \r\n\r\n",
+          "startsAt": "2020-05-05T00:00:00Z",
+          "endsAt": "2020-05-05T00:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "755fb320-2a55-4c7b-8a48-f3aecdf11312",
+              "name": "James Fox"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197382",
+          "title": "Create Business Card Reader with Power Apps and Power Automate",
+          "description": "In this session, you will see how to use the Business card reader inside Ai builder, for the aim of extracting the information in a business card. How to create an application that able to scan the car with Power Apps and AI Builder will be shown, plus how we can use it for automating the process will be shown.",
+          "startsAt": "2020-05-07T00:15:00Z",
+          "endsAt": "2020-05-07T00:35:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "5e0855c3-af73-4aa3-a010-49443c0a3c16",
+              "name": "Leila Etaati"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197008",
+          "title": "Create consistently good web and social media content",
+          "description": "What makes people skip what you’ve written and what makes them stop and read? \r\n\r\nBased on the analysis of years of content performance data, this talk will present a set of principles to follow to improve the effectiveness of everything from your blog posts and intranet articles to your social media posts, photos, and videos.",
+          "startsAt": "2020-05-02T07:00:00Z",
+          "endsAt": "2020-05-02T08:00:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "8b37a725-3e11-44b7-b19f-bf5f3b302e36",
+              "name": "Ameel Khan"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198122",
+          "title": "Cutting through the noise - a digital space for people managers",
+          "description": "People managers can be pivotal in aligning and engaging teams with business strategy. Having a dedicated communications channel and approach can help people manager's kick-start their month ahead with what they need to know, and what they need to do. And also help with strategic direction and messaging for the organisation.",
+          "startsAt": "2020-05-28T00:00:00Z",
+          "endsAt": "2020-05-28T00:30:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "493ae0b3-0c61-48ff-bc76-d7a99972cb96",
+              "name": "Sarah Moffatt"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "192849",
+          "title": "CyberSec and Microsoft 365 in action",
+          "description": "Discover how to secure your tenant from A to Z. From phishing, brute force to malware prevention, understand which steps to implement to harden your tenant and which features to use according to your licence level.",
+          "startsAt": "2020-05-22T05:00:00Z",
+          "endsAt": "2020-05-22T05:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "6c6905aa-6922-4a0c-92f5-cf64772cca48",
+              "name": "Sébastien PAULET"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198154",
+          "title": "Data visualisation to support informed employee decision-making and engagement",
+          "description": "Data visualisation is the graphical representation of information and data. There is a worldwide trend to deliver data in more meaningful ways to influence and achieve.\r\n\r\nThis session will cover:\r\n- The different ways data can be visualised\r\n- How simple visuals were used to create friendly competition and improve engagement between staff\r\n- An example of how a Government Department has mapped road data to assist staff in identifying patterns and making informed decisions",
+          "startsAt": "2020-05-26T00:00:00Z",
+          "endsAt": "2020-05-26T00:30:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "7f80258f-1f5a-47c2-8cc8-0e55a9ba1a89",
+              "name": "Kat Fricker"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "195709",
+          "title": "Deep dive into SharePoint and Teams approval with Power Automate",
+          "description": "This is a deep dive practical session into how to use approvals in Power Automate with office 365 - SharePoint and Teams.\r\n\r\nWe'll look at the basic pattern and options, then look at composite patterns to escalate approvals, handle timeout, restart, collect approval through adaptive cards in teams, and even show approval statuses in a dashboard.",
+          "startsAt": "2020-05-11T02:00:00Z",
+          "endsAt": "2020-05-11T02:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "6f0ac014-a9b5-4aa1-9195-ad4b6b1d396a",
+              "name": "John Liu"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197667",
+          "title": "Designing a modern intranet homepage in SPOnline",
+          "description": "Modern intranets play an important role in organisations.  They deliver key services, and provide an enterprise front door into the broader digital workplace.\r\n\r\nThis workshop will take a hands-on co-design approach to designing an enterprise front door for your SPOnline modern intranet covering:\r\n- key design principles and best practices\r\n- seven elements of a homepage\r\n- what can (and can’t) be delivered out of the box\r\n- testing your design and making sense of the feedback",
+          "startsAt": "2020-05-14T03:00:00Z",
+          "endsAt": "2020-05-14T04:00:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "ef729369-8719-4a84-972c-79d5f05a8521",
+              "name": "Rebecca Rodgers"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197366",
+          "title": "Designing the perfect Team (or Teams) with the 10Ps",
+          "description": "If you have deployed Microsoft Teams, you have surely heard the question “what is the best way to set up my Team?” \r\n\r\nIn this session we will explore the 10Ps, a framework you can use to help you and your workforce to structure their Teams in a way that results in improve business outcomes, and less heartache for IT",
+          "startsAt": "2020-05-01T04:00:00Z",
+          "endsAt": "2020-05-01T04:30:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "57b5609d-d073-448e-9b02-5edd924a80c3",
+              "name": "Paul Woods "
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198338",
+          "title": "Effective Digital Networking",
+          "description": "Hear from one of Australia's experts in traditional and non traditional networking.  Victoria will discuss 3 personas and how they can effectively network in this digital environment.  She will tackle some of the physical and emotional barriers to effective marketing.  This is a 20 min thought provoking presentation with a 15 min Q&A.\r\n",
+          "startsAt": "2020-05-06T22:00:00Z",
+          "endsAt": "2020-05-06T22:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "016fa7dd-e292-4b39-ad6e-2b58b82bc572",
+              "name": "Victoria Butt"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "188195",
+          "title": "Enabling staff to succeed with the Power Platform, with governance, community and ownership",
+          "description": "Have you rolled out (or are planning to) the Power Platform (Power Apps, Power Automate, Power BI and Power Virtual Agents)? \r\n\r\nThis session will focus on enabling your staff to achieve real value with these tools, guided by guard rails while ensuring they know where to turn to get the tools and resources they need to thrive. I'll give my take on the best way to roll out the platform (when, what, how), and how to engage your staff based on real-world experience across large enterprises with complicated structures and complex political landscapes.\r\n\r\nOften organisations have enabled these tools without understanding how to maintain appropriate visibility and controls, or they've been enabled by default without appropriate consideration given. By the time the IT department realises, there are 2000 apps and flows in the wild and it's a mess!\r\n\r\nEnd users love how these tools can rapidly deliver business value for them and their business units, but often create business-critical applications without IT's knowledge, or worse, open the organisation up to possible data leakage. \r\n\r\nHave you asked yourself:\r\n\r\nHow the Power Platform is currently is being used? \r\nWho your power users and champions within the business are?\r\nWhat applications and workflows are business-critical, and which are for personal productivity?\r\nWhere users are getting stuck?\r\nWho your users turn to for support and training?\r\nThe type and classification of data being consumed and sent from these applications and workflows?\r\n\r\nThis session will give you confidence, using real-world tools, examples and scenarios, on how to go about establishing visibility of this important platform in your organisation - ensuring your users feel empowered and supported (and productive!), while IT understands usage and can establish oversight and\r\n controls for a secure, robust, compliant platform.",
+          "startsAt": "2020-05-21T00:00:00Z",
+          "endsAt": "2020-05-21T00:30:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "057dccd1-f7c6-4e30-88ab-155ab309c25a",
+              "name": "Gavin Haak"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "191319",
+          "title": "Everything you wanted to know about PowerApps Portals",
+          "description": "The objective of the session is to give a complete walkthrough of the PowerApp Portals. The session will focus on building a PowerApp portal quickly. The session will also provide some of the use cases of how PowerApps Portal has been used by some of the clients.",
+          "startsAt": "2020-05-21T22:00:00Z",
+          "endsAt": "2020-05-21T22:40:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "1ec7fb63-d5f6-4b53-96e1-af32716f9654",
+              "name": "Chander Ramanathan"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197108",
+          "title": "Excel reinvented - new functions that will rock your world",
+          "description": "Excel has a new set of functions that fundamentally change how you work with Excel data. This walk-through will show you the highlights of the new kids on the Excel block. With lots of practical examples you can see how easy it now is to sort, filter and look up data. A simple formula can now do what previously took whole books to explain. Come and have a look.",
+          "startsAt": "2020-05-26T01:00:00Z",
+          "endsAt": "2020-05-26T01:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "a9b6212f-8a22-4762-b754-0ad38d1d967c",
+              "name": "Ingeborg Hawighorst"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198170",
+          "title": "Fire, aim, ready: Introducing New Yammer in 7 days during COVID-19",
+          "description": "How a 10-week program got collapsed into launching in 7 days during the COVID-19 crisis.  \r\n\r\nCase study on how the ambulance service in WA could reach all their operational staff across the state using Yammer. Within the first two weeks, New Yammer mobile features were released, and Teams was launched so everyone could work from home, and video announcements from the CEO were pushed out across the organisation.  ",
+          "startsAt": "2020-05-21T23:30:00Z",
+          "endsAt": "2020-05-22T00:00:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "55cc320c-211a-4928-b377-83afe281cb9a",
+              "name": "Mark Woodrow"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "199501",
+          "title": "Gaining Visibility: Office 365 End User Experience (Sponsor)",
+          "description": "Dozens of questions arise when a cloud-based outage occurs. This webinar will provide answers, solutions, and the best insights accumulated over the years by  Justin Harris (MCSM)",
+          "startsAt": "2020-05-12T22:30:00Z",
+          "endsAt": "2020-05-12T23:15:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "0eada771-a773-4f58-b842-ca46444b5755",
+              "name": "Justin Harris"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197821",
+          "title": "Go Deep into Direct Routing with the UC Mad Scientist",
+          "description": "Dive into inner workings of Direct Routing in Office 365 for Microsoft Teams and how it can co-exist with options like Microsoft Calling, Telstra Calling for Office365, and Skype for Business on prem or even interop with a legacy PABX. \r\n\r\nWe will be talking Codecs, Sip Configs, Tenant Dial Plans, user policies and regex!\r\n\r\nNote: this is a deep session, we will have packet captures, Fiddler and PowerShell open, if you're after an overview on what Direct Routing is and how to get started check out Damien Margaritis' session \"Cloud Voice with Microsoft Teams\"\r\n",
+          "startsAt": "2020-05-21T05:30:00Z",
+          "endsAt": "2020-05-21T06:30:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "831112fa-50be-411e-8402-f54ca32e4da0",
+              "name": "James Arber"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198523",
+          "title": "Going Back to the Office: Designing for a post-COVID-19 workplace experience",
+          "description": "It is evident from the explosion of usage in tools like Microsoft Teams that COVID-19 is acting as a catalyst for the rapid adoption of new ways of working. While we will eventually head back to our offices, it's likely how we work will never entirely be the same. But how can we plan for a future that doesn't yet exist?\r\n\r\nIn this workshop, we will use design thinking to explore the possible longer-term impact of COVID-19 on the digital workplace stack you have been creating with Microsoft technologies.\r\n\r\nWe will cover:\r\n1. Discuss possible scenarios for new ways of working\r\n2. Map different types of Microsoft technologies to a hierarchy of workplace experience\r\n3. Identify the wishes, imperatives, and puzzles about the future state to support a case for action",
+          "startsAt": "2020-05-11T22:00:00Z",
+          "endsAt": "2020-05-12T00:00:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "06845846-741a-4acb-917b-4cad87d54285",
+              "name": "James Dellow"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197956",
+          "title": "Harnessing the Power of System Reviews and Updates",
+          "description": "When was your last system update/review? This is a question that is frequently overlooked in the fast paced world of technology. Through a in-depth discussion around when and what you should be looking for this presentation hopes to highlight the importance of scheduling checkups and ensuring our environment/s are always up to date and functioning at their best capacity. Much like the dreaded half-yearly dental exam! ",
+          "startsAt": "2020-05-02T06:00:00Z",
+          "endsAt": "2020-05-02T06:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "27f2b2aa-6048-4e3a-a4d1-67c1d9c4b0e2",
+              "name": "Chris Gecks"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198416",
+          "title": "Hell is empty and all the devils are in your Enterprise Social Network. Or are they really?",
+          "description": "We've been sucked into the world of distributed work like never before. While we've been switching on our technology and declaring 'success' as we work from home, the devil's in the detail as we continue what may be a prolonged journey through the crisis.\r\n\r\nIn this environment, when it comes to using Enterprise Social Networks (ESNs), many companies make a common, catastrophic assumption: their people are engaged in social media in their personal lives, so they’ll instinctively know what to do with social at work. \r\n\r\nThis doesn't have to be a hellish road and there’s incredible business value to be gained through enterprise social. However, not everyone is enthusiastic or understands the benefits. In this presentation, Rita Zonius will help you exorcise the devils from your ESN and make it a positive place, by sharing tips to help you get moving in today's very different world of work.",
+          "startsAt": "2020-05-20T03:00:00Z",
+          "endsAt": "2020-05-20T03:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "88ba4cf8-ca9c-47cd-a32b-6c593fc09b0e",
+              "name": "Rita Zonius"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198209",
+          "title": "How technology supports my role as a volunteer fire fighter",
+          "description": "On the afternoon of October 26th 2019 a lighting strike in a remote part of the Wollemi national park at Gospers Mountain, NSW ignited what was to become the biggest forest fire to have started from a single point of ignition that Australia has ever seen.\r\n\r\nTechnology played a huge part in my ability to fight fires, get my day job done and stay in control of my home life. This fire-side chat session will explore how I did it, and how you can benefit from what I learned.",
+          "startsAt": "2020-05-06T03:00:00Z",
+          "endsAt": "2020-05-06T04:00:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "e4d691bf-2820-4516-87b3-cd3deff95718",
+              "name": "Craig Chiffers"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "189833",
+          "title": "How to Build Your Personal Learning Network",
+          "description": "The future of work is learning.  Learning is the future work.  In this interactive workshop, we will explore some ways for navigating through our constantly changing work through learning how to learn continuously.",
+          "startsAt": "2020-05-15T02:00:00Z",
+          "endsAt": "2020-05-15T03:00:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "3103363a-0672-4316-8eeb-b66af95a5505",
+              "name": "Helen Blunden"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "192238",
+          "title": "How to get deeper administration insights into your tenant",
+          "description": "Microsoft Cloud App Security is a powerful reporting and alerting tool that provides deep analytics into your Microsoft 365 tenant. Combined with other agents it can be a central place to bring all your reporting and alerting together and even incorporate information from endpoints, servers and firewalls. Come and learn why Microsoft Cloud App Security provides administrators power beyond their wildest dreams when it comes to managing Microsoft 365.",
+          "startsAt": "2020-05-02T02:00:00Z",
+          "endsAt": "2020-05-02T02:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "55286362-22a6-4cd5-ab0c-dbd3c5f012ef",
+              "name": "Robert Crane"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198194",
+          "title": "How to lift your Adoption of Microsoft 365, the journey and pitfalls!",
+          "description": "Looking at starting or already on the journey with Microsoft 365?  Great organisational communication, collaboration and process re-engineering takes more than enabling and rolling out Microsoft 365 such as Windows, Office 365, OneDrive & SharePoint or Teams.  \r\n\r\nIn this session Kirsty will help you understand where do you start, what works well, and what can go wrong through real life adoption stories from the field.\r\n\r\n* Where do you start first? \r\n* Hear about Adoption programs successfully executed and answers to challenges/pitfalls you'll see\r\n* Know where to find the best resources for DIY Adoption journeys\r\n* Know where to get further support along the way\r\n* You will walk away with a clearer understanding of how to ensure ongoing success and harmony",
+          "startsAt": "2020-05-29T03:00:00Z",
+          "endsAt": "2020-05-29T03:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "2d82939c-aea4-4483-9ce5-bc6b179e5c34",
+              "name": "Kirsty McGrath"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198219",
+          "title": "How to turn a static application into an event processing monster",
+          "description": "In this presentation of a business case study, Errol will show the steps to take the static events of a classic enterprise application into a rules based, multi purpose processing machine.\r\n\r\nEasily add new rules and process paths to suit business requirements incorporating streaming analytics, server-less functions, event grids and integrations into MS Teams using adaptive card technology.\r\n\r\nAn ideal user case when considering continual process improvement",
+          "startsAt": "2020-05-13T00:00:00Z",
+          "endsAt": "2020-05-13T00:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "ff6949f9-eeaa-451c-aae7-f3f12ada8142",
+              "name": "Errol LeBoydre"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198131",
+          "title": "How will flexible working change how we work after the pandemic?",
+          "description": "The coronavirus pandemic abruptly shut down industries & caused job losses like we’ve never seen before. On the flipside, the lucky workers who still had jobs were forced into having to get up to speed on how to work remotely effectively.\r\nIs remote working merely a stopgap or have we changed how we work forever?\r\n\r\nIn this talk learn:\r\n- The 3 phases of remote working\r\n- How work/life integration will be a key differentiator to attract the best talent & deliver superior results\r\n- Why remote working is the circuit breaker to improving productivity by:\r\n- Having meetings that are more effective\r\n- Measuring employee performance based on outcomes\r\n- Leading empowered colleagues who collaborate by working seamlessly together\r\n",
+          "startsAt": "2020-05-27T04:00:00Z",
+          "endsAt": "2020-05-27T04:30:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "33ae9c4e-e9bd-484c-8c63-1ae18172e6be",
+              "name": "Glenn Tranter"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197860",
+          "title": "I didn't know PowerPoint could do that!",
+          "description": "Time to level up your presentations from a slide deck to an immersive communication experience. In this session we will explore some of the latest greatest features and also the often unrealised awesome capabilities of PowerPoint which will make you go \"Wow - I didn't know PowerPoint could do that!\"",
+          "startsAt": "2020-05-26T02:00:00Z",
+          "endsAt": "2020-05-26T02:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "0766bed2-be2b-42c0-b359-ecf016887fbf",
+              "name": "Amey Holden"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "187741",
+          "title": "Implementing Microsoft 365 for Business in Small to Medium Business (SMB)",
+          "description": "I explain how to plan, manage and deploy a successful MS Office 365 implementation.",
+          "startsAt": "2020-05-02T03:00:00Z",
+          "endsAt": "2020-05-02T03:30:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "5836285b-c5ba-460f-81f7-8099a5d125f3",
+              "name": "Darren Lutchner"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197949",
+          "title": "Information architecture in the Digital Workplace",
+          "description": "Hubs, sites, libraries, channels, menus, metadata, content types, sensitivity and retention labels, naming conventions, roll ups - there are a plethora of tools available in Microsoft 365 to help you structure and organise information, but what approach should you take?\r\n\r\nFrom traditional folder hierarchies to flat architecture, from enterprise taxonomies to user-driven folksonomies, this session explores how information architecture in SharePoint and Microsoft 365 can be used to enable the business without compromising on governance.",
+          "startsAt": "2020-05-25T00:00:00Z",
+          "endsAt": "2020-05-25T01:00:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "2e7506d6-6a48-4488-90eb-f333bbc872dd",
+              "name": "Rowena Keefe"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197605",
+          "title": "Intro to Knowledge Management",
+          "description": "Let me share some of the things I have taught to post graduate students - the basics of KM and some of the things I have done",
+          "startsAt": "2020-05-14T04:15:00Z",
+          "endsAt": "2020-05-14T04:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "0b68a0c8-f935-475c-b5c4-9ac92948b409",
+              "name": "Lyn Murnane"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197343",
+          "title": "Introduction to Power Virtual Agents the “Chatbots “",
+          "description": "Recently chatbots have started gaining a lot of popularity, and are being used for doing a variety of things. Power Virtual Agent is Microsoft offer for creating bots without writing any code. This session answer a few basic questions like why to use bots, what P.V.A is capable of doing, and how to try your first bot? There will be demos of some exciting P.V.A. features. See its amazing capabilities of working with other products like Microsoft Flow (Automate) and Teams.\r\n",
+          "startsAt": "2020-05-17T22:00:00Z",
+          "endsAt": "2020-05-17T22:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "6ee44bcf-756c-44f4-a9e2-aee752ab7d81",
+              "name": "Yawer Iqbal"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "192237",
+          "title": "It's all about search",
+          "description": "Search is the killer app for Microsoft 365, it is available everywhere but few seem to take full advantage of what it has to offer. This session will show the power of Microsoft 365 search and how to make the most of this from the browser to the desktop. You'll also a peek into what Microsoft has planned for search in Microsoft 365 and what that will mean going forward.",
+          "startsAt": "2020-05-25T02:30:00Z",
+          "endsAt": "2020-05-25T03:15:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "55286362-22a6-4cd5-ab0c-dbd3c5f012ef",
+              "name": "Robert Crane"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198738",
+          "title": "Journey to Teams with Poly (Sponsor)",
+          "description": "Session outline:\r\n1.\tJourney to Microsoft Teams\r\n2.\tEnhance Productivity in the Home Office\r\n3.\tOptimizing Meeting Room Experiences\r\n4.\tExpand Teamwork with Interoperability\r\n5.\tCurrent Promotions and Offers",
+          "startsAt": "2020-05-27T01:00:00Z",
+          "endsAt": "2020-05-27T02:00:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "7e4b49d6-c50b-446e-8e8c-d5e0f0dd904f",
+              "name": "Brennon  Kwok"
+            },
+            {
+              "id": "be5b5df0-2ca9-4298-bb43-e380436995c7",
+              "name": "Damien Margaritis"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197888",
+          "title": "Let's build an Employee Net Promoter Score system using MS Forms, SharePoint and Power BI",
+          "description": "In this session, you will learn how to build an employee net promoter score (eNPS) system for your organisation using out of the features of Forms, SharePoint and Power BI. ",
+          "startsAt": "2020-05-02T04:00:00Z",
+          "endsAt": "2020-05-02T04:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "40ccb8a4-fbe2-4b64-a9e9-a5c0dd31a893",
+              "name": "Jag Kakarlapudi"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197697",
+          "title": "Leverage D365 Supply chain management using Power Platform",
+          "description": "The session will demonstrate scenarios which can be used to extend the D365 Supply Chain Management solution using the capabilities of Power BI , Power Apps, Power Automate and Power Virtual Agents. ",
+          "startsAt": "2020-05-16T04:00:00Z",
+          "endsAt": "2020-05-16T04:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "6500d03f-d4de-49fc-83ad-b0bc85e4d9b8",
+              "name": "Kasun Pathirana"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "199681",
+          "title": "Logitech Device Management and Tap Overview (Sponsor)",
+          "description": "Nelson & Horace will take you through the Logitech device management (SYNC) and their MTR solution (TAP) with time for Q&A. We will provide live demonstrations of both solutions.\r\n\r\nSync is a modern, cloud-based platform that helps to monitor and manage a company’s Logitech video conferencing devices, and in the future, will provide insights about each meeting room.\r\n\r\nSync simplifies supporting rooms at scale with an intuitive interface that’s powered by a cloud-based architecture for streamlined site and room onboarding. It allows our customers to easily monitor room health and keep devices up to date.",
+          "startsAt": "2020-05-21T01:00:00Z",
+          "endsAt": "2020-05-21T02:00:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "81c028ce-5835-49c0-9534-c524add0db89",
+              "name": "Nelson Padilla"
+            },
+            {
+              "id": "46f8adc5-9bb4-4324-a572-0c6555f23d4b",
+              "name": "Horace Savarino"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "195929",
+          "title": "Low Code Custom Apps for the Modern Workplace",
+          "description": "Many organisations have now moved to Office365 for intranet and document management - but the 'custom apps' landscape is still a little mixed+murky.   Chris will discuss + compare some of the tools and platforms for developing apps, using SharePoint data for web, mobile and Microsoft Teams",
+          "startsAt": "2020-05-11T01:00:00Z",
+          "endsAt": "2020-05-11T01:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "38e264ee-38ce-4b4b-abd9-a78942424663",
+              "name": "Chris O'Connor"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "191934",
+          "title": "Manage O365 with OS agnostic Office365 CLI",
+          "description": "Office365 CLI is the only tool you need to manage Office 365 anywhere in any environment you are in.\r\nInterested in contributing to this open source PnP tool? We have got it covered too!",
+          "startsAt": "2020-05-02T01:00:00Z",
+          "endsAt": "2020-05-02T01:30:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "219abeca-b8a4-4e4f-a6ad-49870a069562",
+              "name": "Rabia Williams"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197460",
+          "title": "Managing Surface Devices with Intune",
+          "description": "Microsoft Surface & Intune - a match made in heaven (aka. Microsoft HQ). This session will dive into the managing surface devices from firmware to Updates. Surface really is a match made in heaven for Intune and power of managing the every aspect of the device in a single platform like Intune is unique.",
+          "startsAt": "2020-05-05T22:00:00Z",
+          "endsAt": "2020-05-05T22:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "d0ed1ace-7ded-42cf-a08c-d2e34c520b7e",
+              "name": "Bryton Wishart"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "199758",
+          "title": "Mastering Microsoft Teams",
+          "description": "Teams is the new chat-based workspace in Office 365 and is the fastest-growing product ever in Microsoft. Microsoft Teams is extremely simple to use for end-users, but mastering it requires knowledge of the entire Microsoft 365 stack as Teams not only brings all tools together in the central collaboration hub but also depends on them to function.  Teams has been designed for teamwork and flexibility, powered by the Microsoft cloud to bring together the best of Office 365 into a single workspace for working with people, managing conversations, maintaining files, and integrating Office 365 applications, so everyone has instant access to everything they need for a successful collaboration.\r\n\r\nWith great features come great questions and this workshop will cover how to plan, implement, and master Microsoft Teams. Be prepared for an overview of Microsoft Teams, examples of how to get started with Microsoft Teams, best practices for managing different scenarios, and how SharePoint and OneDrive for Business interact with Microsoft Teams. We’ll cover how to plan, deliver, and operate Microsoft Teams for Groups, Whiteboard, meetings, notes, DLP, Governance, PowerShell, Templating, Roles and Permissions & Monitoring Usage and Quality. If your organization is currently considering deploying or just starting your journey to Microsoft Teams, this workshop is for you as we'll consider everything from A to Z.\r\n",
+          "startsAt": null,
+          "endsAt": null,
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "fb6ff2e9-e06b-4ed9-a3b9-2f337659a41c",
+              "name": "Gokan Ozcifci"
+            }
+          ],
+          "categories": [],
+          "roomId": null,
+          "room": null
+        },
+        {
+          "questionAnswers": [],
+          "id": "188460",
+          "title": "Measure your Teams sentiment",
+          "description": "Sentiment analysis is a special case of text mining that is increasingly important in business intelligence and social media analysis. In this session, we’ll build an experiment for sentiment analysis of conversations in Microsoft Teams to measure the overall feeling of engagement of your teams. For example, sentiment analysis of comments can help organisations monitor appreciation and utilisation of their IP (Intellectual Property), or help users identify opinion polarity before accessing a resource. The output predictions can be aggregated over specific tags containing a certain keyword, in order to find out the overall sentiment for each element of the taxonomy, and lastly consumed by analytical tools such as Power BI. ",
+          "startsAt": "2020-05-01T05:00:00Z",
+          "endsAt": "2020-05-01T05:30:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "8e47e94c-acde-4e94-8aa4-617b428d2967",
+              "name": "Stefano Tempesta"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "195596",
+          "title": "Mobile Devices Need Management Too",
+          "description": "The traditional boundary of most corporate networks has expanded to be everywhere and anywhere that users and their devices go. How do you ensure that users can connect securely to required cloud applications, but you can still manage that experience?",
+          "startsAt": "2020-05-16T00:00:00Z",
+          "endsAt": "2020-05-16T00:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "34663d50-6608-487a-9927-4398be155a2e",
+              "name": "Mark O'Shea"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197456",
+          "title": "Modern Approach to Device Management",
+          "description": "Let's explore the business benefits of how using a modern approach to managing devices can benefit the business along with the overall security of a company. This session will explore how device management solutions such as intune and device program like AutoPilot and Apple Business Manager can help companies improve the employee experience.",
+          "startsAt": "2020-05-13T22:00:00Z",
+          "endsAt": "2020-05-13T23:00:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "d0ed1ace-7ded-42cf-a08c-d2e34c520b7e",
+              "name": "Bryton Wishart"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198208",
+          "title": "Networking matters: How to ensure voice and video quality in Teams",
+          "description": "Real time voice and video are highly dependent on the quality of your network. Are you confident that yours is up to the challenge? We’ll look at Microsoft recommended methods to test your network prior to deployment, tackle common mis-configuration mistakes, discover the importance of end user devices and show you how to optimise your network configuration to best support real time media in Microsoft Teams",
+          "startsAt": "2020-05-21T03:00:00Z",
+          "endsAt": "2020-05-21T04:00:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "e4d691bf-2820-4516-87b3-cd3deff95718",
+              "name": "Craig Chiffers"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198778",
+          "title": "Notifications notifications too many Teams notifications",
+          "description": "In today's COVID world we are adapting and changing our ways of working. We are reaching out to each other digitally more and more. Learn more about Teams notifications and chat options to stream line your notifications to your preferences and remove the noise you dont need.",
+          "startsAt": "2020-05-02T05:00:00Z",
+          "endsAt": "2020-05-02T05:30:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "6956393a-0eca-408a-be54-12c2d406f3b4",
+              "name": "Dee Eldridge"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "188459",
+          "title": "Nudge Platform. AI-powered behavioural orchestration of lines of communication.",
+          "description": "Employees are getting overwhelmed by the number of applications they need to access and use to do their job. Nudge is a behavioural concept which proposes positive reinforcement and indirect suggestions as ways to influence the behaviour and decision making of groups or individuals. \r\nThis session presents a Cloud-based platform that consolidates multi-system notifications leveraging AI technology in Azure, and curates application messages with actionable outcomes. With out-of-the-box connectors for leading platforms like Microsoft Dynamics 365, Office 365, SAP, Salesforce and Workday, the Nudge Platform can influence and guide organizational change and behaviours, making workforce more focussed and productive ultimately. ",
+          "startsAt": "2020-05-16T02:00:00Z",
+          "endsAt": "2020-05-16T02:30:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "8e47e94c-acde-4e94-8aa4-617b428d2967",
+              "name": "Stefano Tempesta"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198139",
+          "title": "Old people and their computers in lockdown",
+          "description": "In lockdown, some \"old people\" are surging ahead with new learnings while others lag further behind. The COVID-19 pandemic is a teachable moment. Now is the ideal time to drop those ageist cliches and help older people master technology that they suddenly want to use. ",
+          "startsAt": "2020-05-14T23:30:00Z",
+          "endsAt": "2020-05-14T23:50:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "f8ca1fd4-29e9-4911-b393-f9198f84a866",
+              "name": "Rachel McAlpine"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "195522",
+          "title": "Old ways won’t open new doors: modern task management with Planner and To Do",
+          "description": "There is an old adage, “if you want something done, ask a busy person.”\r\n\r\nIt certainly seems true that busy people DO get things done – but is it because they’re busy or because they’re good at keeping up with what needs doing? \r\n\r\nUsing To-Do and Planner, we walk you through a modern approach to task management – one that you can start using immediately without any special configuration. Look at processes to improve you personal productivity and  track and plan team activities.",
+          "startsAt": "2020-05-12T00:15:00Z",
+          "endsAt": "2020-05-12T01:00:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "99c50410-8f9a-4884-b005-a3f277c4427c",
+              "name": "Debbie Ireland"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "199485",
+          "title": "Panel: Change in times of crisis",
+          "description": "Panel of industry experts to discuss topics and issues related to change in times of crisis.",
+          "startsAt": "2020-05-28T23:30:00Z",
+          "endsAt": "2020-05-29T00:15:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "bc68c9a4-b322-43a0-a6a4-4c7af8401223",
+              "name": "M365 May"
+            },
+            {
+              "id": "990f1b24-b1a9-43c3-bd72-7f99ea63668f",
+              "name": "Rebecca Jackson"
+            },
+            {
+              "id": "3a3bd08a-0747-4b30-a35a-8f3ed2931cdc",
+              "name": "Megan Strant"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "199484",
+          "title": "Panel: Neurodiversity - Leading, parenting, learning, working",
+          "description": "Panel of industry experts to discuss topics and issues related to neurodiversity.",
+          "startsAt": null,
+          "endsAt": null,
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "bc68c9a4-b322-43a0-a6a4-4c7af8401223",
+              "name": "M365 May"
+            },
+            {
+              "id": "c1ecca96-0c33-4b08-bdc1-a7f104ec83c9",
+              "name": "Loryan Strant"
+            },
+            {
+              "id": "3a3bd08a-0747-4b30-a35a-8f3ed2931cdc",
+              "name": "Megan Strant"
+            }
+          ],
+          "categories": [],
+          "roomId": null,
+          "room": null
+        },
+        {
+          "questionAnswers": [],
+          "id": "199482",
+          "title": "Panel: Women in IT- Careers and leadership",
+          "description": "Panel of industry experts to discuss topics and issues related to Women in IT and leadership.",
+          "startsAt": null,
+          "endsAt": null,
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "bc68c9a4-b322-43a0-a6a4-4c7af8401223",
+              "name": "M365 May"
+            },
+            {
+              "id": "990f1b24-b1a9-43c3-bd72-7f99ea63668f",
+              "name": "Rebecca Jackson"
+            },
+            {
+              "id": "3a3bd08a-0747-4b30-a35a-8f3ed2931cdc",
+              "name": "Megan Strant"
+            }
+          ],
+          "categories": [],
+          "roomId": null,
+          "room": null
+        },
+        {
+          "questionAnswers": [],
+          "id": "195936",
+          "title": "Powerup Powershell for Office 365",
+          "description": "Everyone struggles to document their Office 365 tenant. What information do I want and where do I find it? What format do I want it in? What else can I do with Powershell in my tenant? Let me walk you through some scripts I've found and adapted.",
+          "startsAt": "2020-05-05T01:00:00Z",
+          "endsAt": "2020-05-05T02:00:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "68d8d18b-2e52-4036-a962-e797457f5419",
+              "name": "Suzanne Hunt"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197859",
+          "title": "Practice makes perfect: Rehearse your presentations with PowerPoint Presenter Coach",
+          "description": "In this session we will try out one of the newest AI-based features in PowerPoint - the Presenter Coach. Witness the coach in action and see how the feedback improves your presentations!",
+          "startsAt": "2020-05-04T03:00:00Z",
+          "endsAt": "2020-05-04T03:20:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "0766bed2-be2b-42c0-b359-ecf016887fbf",
+              "name": "Amey Holden"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197846",
+          "title": "Product Principles",
+          "description": "Learn the importance of instilling a set of principles before collaborating on a new product development project. Establishing a set of principles will enable the team to quickly understand what is important to the team performance and the project. Having a set of principles will set the team up for success. ",
+          "startsAt": "2020-05-01T01:30:00Z",
+          "endsAt": "2020-05-01T02:30:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "486df0bc-6b22-4e07-863c-85ed539ddebc",
+              "name": "Adrienne  Tan"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198177",
+          "title": "Project Success – How Change Management Makes Change Easier",
+          "description": "We are in the throes of massive disruptive change.  The world is now more volatile, uncertain, complex and ambiguous than ever before.\r\n\r\nThe speed of change is ever increasing along with the pressure to make change happen fast. These conditions create many frustrations.\r\n\r\nHave you ever:\r\n•  Struggled to get your project up and running\r\n•  Found it difficult to acquire the resources and support from senior leaders to build change management into your project to make it work\r\n• Seen your business invest heavily in new systems/tools only to see them under-utilised and disregarded \r\n• Introduced a new system and because people aren’t engaged properly, they don’t know how to use it, they get frustrated and rather than persist, they look for other alternatives - wasting more time and money.\r\n\r\nThere is a rapid evolution of new Microsoft tools that are designed to make life easier, but at times they seem to make life more difficult. Utilising these tools for maximum benefit requires the full engagement of your people.\r\n\r\nIn this session we will explore why change management matters and the positive impact it can have on you and your project.  It’s all about how engaging people in the right way can make change happen, creating success for you, your project, for others and for the business as a whole.\r\n",
+          "startsAt": "2020-05-29T01:00:00Z",
+          "endsAt": "2020-05-29T01:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "960f6272-a504-4292-b6ba-4732d54b02e1",
+              "name": "Tracy Cooper"
+            },
+            {
+              "id": "82201476-d532-40ea-a85d-99926e2161e1",
+              "name": "Maria Nolan"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "199691",
+          "title": "Resolving the Headache of Email Signature Management: Exclaimer Cloud (Sponsor)",
+          "description": "In this demonstration we aim to explore some of the most common headaches that Exclaimer have encountered when organisations seek to centrally manage email signatures.\r\n\r\nAs well we introduce Exclaimer Cloud as an effective means to solve this problem and all of the added benefits of doing so.",
+          "startsAt": "2020-05-19T05:00:00Z",
+          "endsAt": "2020-05-19T06:00:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "cc668c1f-0e2c-48e4-928b-c8da2df6a877",
+              "name": "James Wayne"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "195407",
+          "title": "SPFx with Azure services like Azure Functions",
+          "description": "Learn how you can integrate Azure functions in your SPFx app. ",
+          "startsAt": "2020-05-16T07:00:00Z",
+          "endsAt": "2020-05-16T07:30:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "219abeca-b8a4-4e4f-a6ad-49870a069562",
+              "name": "Rabia Williams"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197604",
+          "title": "Systems learning with game like activities.",
+          "description": "An overview of how we gained traction and learning in a global organisation, around an updated knowledge system using the basics of gamification. ",
+          "startsAt": "2020-05-15T03:10:00Z",
+          "endsAt": "2020-05-15T03:40:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "0b68a0c8-f935-475c-b5c4-9ac92948b409",
+              "name": "Lyn Murnane"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "189863",
+          "title": "Tales from the corporate ladder",
+          "description": "Come along and hear about the varied career journeys of the panel. They will talk about what has worked well for them  , things that haven't and the times they got told what they wanted to do was silly but they did it anyway. \r\nIf you are not sure on what you should do to move up in your career or just want to hear about other people's journey this is the session for you.\r\nIt will also include the opportunity for the audience to ask some questions of their own to the panel.",
+          "startsAt": "2020-05-06T23:00:00Z",
+          "endsAt": "2020-05-07T00:00:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "205d3cfb-417e-47ce-9487-00177fb1e216",
+              "name": "Elaine van Bergen"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "199434",
+          "title": "Teams governance and lifecycle management essentials",
+          "description": "In this session, Loryan Strant will take you through key things you need to know around governance when it comes to Teams, Office 365, and all the way up to Microsoft 365.\r\nTeams governance and lifecycle are hot topics as more organisations look to use the platform, so make sure you come along for this session!",
+          "startsAt": "2020-05-04T05:00:00Z",
+          "endsAt": "2020-05-04T05:30:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "c1ecca96-0c33-4b08-bdc1-a7f104ec83c9",
+              "name": "Loryan Strant"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198210",
+          "title": "Teams integration - Teams request, approval and automated creation using Azure Logic Apps and more",
+          "description": "A decision for all Teams deployments is - do we allow anyone to create a Team or restrict it? Teams sprawl or an annoying and time consuming process to create Teams? \r\n\r\nWe will run through an example of another approach which is an automated Teams request process, approval workflow and Teams creation. \r\n\r\nAnyone can request a Team by filling in a Form that provides options for Teams types and alternate owners. Approvers can just click approve and the Team is created based on custom templates including adding channels and tabs. The creation of the Team is performed in Azure Logic Apps and the creation can be customised to do name validation, manage Guest access, apps, channels and more.\r\n\r\nWe will also go through custom Teams integrations like ServiceNow, HR systems and employee check-ins.",
+          "startsAt": "2020-05-27T00:00:00Z",
+          "endsAt": "2020-05-27T00:30:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "7885fbfd-fcae-42ad-98af-e7de1ed13fd6",
+              "name": "Marc Terblanche"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "195521",
+          "title": "Teams Tips and Etiquette",
+          "description": "Make the most from your Microsoft Teams deployment by understanding the business aspects of this new way of collaborating. This is what will enable smooth transformation, acceptance of change, and continued adoption.\r\n\r\nThis session will be full of practical tips and tricks, while focusing on the more important PEOPLE side of the technology; managing information overwhelm, communication strategies and ensuring your team are singing from the same song sheet.",
+          "startsAt": "2020-05-20T01:00:00Z",
+          "endsAt": "2020-05-20T01:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "99c50410-8f9a-4884-b005-a3f277c4427c",
+              "name": "Debbie Ireland"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "190086",
+          "title": "The art of Deep Work in Microsoft 365",
+          "description": "Deep work is like a superpower in our increasingly competitive twenty-first-century economy. Deep work is so important because without it, you'll constantly find yourself caught in shallow, unimportant tasks and never make progress on anything that actually matters. \r\n\r\nJoin me as I take you through my journey to discover deep work and all the additional benefits you get by doing it not just at work but also in your personal life.",
+          "startsAt": "2020-05-07T04:00:00Z",
+          "endsAt": "2020-05-07T05:00:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "002df43b-1309-4bd1-aab3-d9c9c6ad83f5",
+              "name": "Angus Florance"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197958",
+          "title": "The importance of community in the workplace and beyond",
+          "description": "A community is not defined by the number of people that make it but simply by the mental and physical space that a group of people choose to share. In this presentation, I will provide real life experiences of a community and how choosing to equip and share knowledge within your workplace and public communities can better your work and personal performance. ",
+          "startsAt": "2020-05-19T00:00:00Z",
+          "endsAt": "2020-05-19T00:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "27f2b2aa-6048-4e3a-a4d1-67c1d9c4b0e2",
+              "name": "Chris Gecks"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198144",
+          "title": "The Persuasion Equation - how to effectively communicate results to people who don’t want to listen",
+          "description": "This session will present a winning workflow for Analysts, Developers and Engineers to harness the power of persuasion with data. Attendees will hear how to present the results of their data science, projects or analysis and drive their audience to act on those results.\r\n\r\nMy experience with presenting my work in data science to people who then became inspired to act on that work, when they initially didn’t want to listen. I call this “The Persuasion Equation”. It's how I found a way to make my voice heard within an organisation, and it’s the difference between insights and action.\r\n",
+          "startsAt": "2020-05-16T01:00:00Z",
+          "endsAt": "2020-05-16T01:20:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "e0b0d06d-2c2c-422d-97e0-1ea9c2fd2fb6",
+              "name": "Brooke Jamieson"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198201",
+          "title": "The Power of Prototypes: Shaping your data story in Power BI",
+          "description": "Data is more than just numbers on a page. When shared as a story, we suddenly have the power to connect, engage and ultimately transform our data into decisions. In this session, we explore practical design tips to help you start shaping your data story in Power BI - quickly! \r\n\r\nStarting from a blank canvas, we begin by asking questions of our data to design our '10 minute mock-up'. We  then walk through how to import and model your data, and transform this into a 'Proof of Concept' Power BI report, refined with layouts, themes, branding and images to get early feedback and engagement from your business users. When implemented successfully, a prototype has the power to quickly create a shared understanding and align the vision of our organisations collective data story, potentially saving a lot of rework and headaches down the track! ",
+          "startsAt": "2020-05-26T07:00:00Z",
+          "endsAt": "2020-05-26T07:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "778dad6d-5e03-44e2-893d-1133edeac8b9",
+              "name": "Alice Drummond"
+            },
+            {
+              "id": "5a18913e-8bec-4b19-9151-d33b37678b1c",
+              "name": "Christian Borovac"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198217",
+          "title": "The power to create with Microsoft Graph",
+          "description": "Microsoft 365 brings together Office 365, Windows 10 and Enterprise Mobility + Security to deliver a complete, intelligent and secure solution that empowers people.\r\n\r\nDid you know that nearly all of the M365 power is available from a single rest end point and using this to solve business and enterprise problems has never been easier.\r\n\r\nThis session will show the development capabilities using Microsoft Graph and show how to build an authenticated application in 15 minutes using the Graph toolkit.\r\n",
+          "startsAt": "2020-05-12T06:00:00Z",
+          "endsAt": "2020-05-12T06:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "ff6949f9-eeaa-451c-aae7-f3f12ada8142",
+              "name": "Errol LeBoydre"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198105",
+          "title": "Things that haven't changed since March 2020 - but still need fixing!",
+          "description": "As tech people, we love what's new, improved, about to land and we are always asking what's next.  Where we play and thrive is not the reality for people at work today.  Their focus is on the now, not what's next, they want to know how do I get this done now!  The gap between technology and people is widening, tools are improving but results aren't.  \r\n\r\nWhat was an overloaded mailbox is now an endless stream of notifications from a plethora of messaging applications.  These are some of statements being made by people pre March 2020 that still need to be addressed, and they are more relevant than ever given our current remote working arrangements.\r\n\t• I'm not a tech person…\r\n\t• I know this 'thing' (Computer, phone, program, app) can probably do more but how am I going to find the time to…\r\n\t• Oooh, look! A shiny new 'object, (Computer, phone, program, app) we need that now - it will help us get more done… (repeated every few months)\r\n\t• Where is my data?\r\n\t• How can I get organised?\r\n\t• We want a more collaborative approach to work…\r\nLet's bridge the skills gap - Why and How.",
+          "startsAt": "2020-05-04T00:00:00Z",
+          "endsAt": "2020-05-04T01:00:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "48d525b1-732a-44d9-8b15-8ad9e4a98c6a",
+              "name": "Mathew Gilbertson"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197669",
+          "title": "Understanding your employees’ needs when you can’t actually see them - remote research techniques",
+          "description": "The starting point for great design is understanding who you’re designing for; their needs, pain points and the problems your new design will solve.  Many of you will be familiar with conducting face-to-face user research but what does that look like in the world of remote work?\r\n\r\nNow, more than ever, at each stage of the design, we need to engage with those we’re designing for.  These techniques can also be applied in the physical environment.  This session will cover:\r\n - logistics, including getting time/engagement with the right users\r\n - different techniques for understanding your audience, their needs and pain points\r\n - eliciting enough information to inform your draft design",
+          "startsAt": "2020-05-28T03:00:00Z",
+          "endsAt": "2020-05-28T03:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "ef729369-8719-4a84-972c-79d5f05a8521",
+              "name": "Rebecca Rodgers"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "195594",
+          "title": "Up And Running Quickly With Windows Autopilot",
+          "description": "With Windows Autopilot, your users can set up a new Windows PC with steps as easy as connecting to a network and providing their work credentials. At that point they sit back and watch as Windows is customised for you organisational requiements, including required configuration settings, and apps including Office are installed.\r\n",
+          "startsAt": "2020-05-02T00:00:00Z",
+          "endsAt": "2020-05-02T00:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "34663d50-6608-487a-9927-4398be155a2e",
+              "name": "Mark O'Shea"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "199456",
+          "title": "User Group: Microsoft 365 Modern Management Meetup May 2020",
+          "description": "Hosted by Microsoft 365 Modern Management.\r\n\r\nRegsiter and join via Meetup: https://www.meetup.com/Sydney-CBD-Microsoft-Modern-Management-Meetup/events/267435768/",
+          "startsAt": "2020-05-13T07:30:00Z",
+          "endsAt": "2020-05-13T08:30:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "bc68c9a4-b322-43a0-a6a4-4c7af8401223",
+              "name": "M365 May"
+            },
+            {
+              "id": "34663d50-6608-487a-9927-4398be155a2e",
+              "name": "Mark O'Shea"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "199458",
+          "title": "User Group: Sydney UC May Meetup",
+          "description": "Hosted by Sydney UC - Skype for Business & Microsoft Teams.\r\n\r\nJoin and register via Meetup: https://www.meetup.com/Sydney-UC/events/269116313/",
+          "startsAt": "2020-05-27T05:00:00Z",
+          "endsAt": "2020-05-27T06:30:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "bc68c9a4-b322-43a0-a6a4-4c7af8401223",
+              "name": "M365 May"
+            },
+            {
+              "id": "e4d691bf-2820-4516-87b3-cd3deff95718",
+              "name": "Craig Chiffers"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "199455",
+          "title": "User Group: What is the new Microsoft Productivity Score Analytics?",
+          "description": "Hosted by Australian Microsoft 365 Adoption User Groups.\r\n\r\nRegister and join via Meetup: https://www.meetup.com/Microsoft-365-Adoption-Melbourne/events/270193008/",
+          "startsAt": "2020-05-05T02:30:00Z",
+          "endsAt": "2020-05-05T04:00:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "bc68c9a4-b322-43a0-a6a4-4c7af8401223",
+              "name": "M365 May"
+            },
+            {
+              "id": "990f1b24-b1a9-43c3-bd72-7f99ea63668f",
+              "name": "Rebecca Jackson"
+            },
+            {
+              "id": "2d82939c-aea4-4483-9ce5-bc6b179e5c34",
+              "name": "Kirsty McGrath"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197819",
+          "title": "Video Interop with Microsoft Teams",
+          "description": "So you're using Teams as your meeting platform. Great choice! But what about video interop? Do you still have Polycom or Cisco endpoints that you would like to join your Teams meetings? and what about interop between Teams meeting room devices and other online platforms, like Zoom or Webex?\r\n\r\nIf you have questions like this, then this session is for you! Walk through various interop scenarios and learn what can be achieved today, and what is just around the corner...",
+          "startsAt": "2020-05-13T04:00:00Z",
+          "endsAt": "2020-05-13T05:00:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "be5b5df0-2ca9-4298-bb43-e380436995c7",
+              "name": "Damien Margaritis"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "199473",
+          "title": "Weekly Wrap Up 1",
+          "description": "Live session discussing the weeks presentations and events with session moderators and guests",
+          "startsAt": "2020-05-02T08:10:00Z",
+          "endsAt": "2020-05-02T08:40:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "bc68c9a4-b322-43a0-a6a4-4c7af8401223",
+              "name": "M365 May"
+            },
+            {
+              "id": "890325cc-2710-4843-8248-6c7cfa0c4a7d",
+              "name": "Darrell Webster"
+            },
+            {
+              "id": "c1ecca96-0c33-4b08-bdc1-a7f104ec83c9",
+              "name": "Loryan Strant"
+            },
+            {
+              "id": "990f1b24-b1a9-43c3-bd72-7f99ea63668f",
+              "name": "Rebecca Jackson"
+            },
+            {
+              "id": "3a3bd08a-0747-4b30-a35a-8f3ed2931cdc",
+              "name": "Megan Strant"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "199474",
+          "title": "Weekly Wrap Up 2",
+          "description": "Live session discussing the weeks presentations and events with session moderators and guests",
+          "startsAt": "2020-05-08T22:00:00Z",
+          "endsAt": "2020-05-08T22:30:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "bc68c9a4-b322-43a0-a6a4-4c7af8401223",
+              "name": "M365 May"
+            },
+            {
+              "id": "890325cc-2710-4843-8248-6c7cfa0c4a7d",
+              "name": "Darrell Webster"
+            },
+            {
+              "id": "c1ecca96-0c33-4b08-bdc1-a7f104ec83c9",
+              "name": "Loryan Strant"
+            },
+            {
+              "id": "990f1b24-b1a9-43c3-bd72-7f99ea63668f",
+              "name": "Rebecca Jackson"
+            },
+            {
+              "id": "3a3bd08a-0747-4b30-a35a-8f3ed2931cdc",
+              "name": "Megan Strant"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "199475",
+          "title": "Weekly Wrap Up 3",
+          "description": "Live session discussing the weeks presentations and events with session moderators and guests",
+          "startsAt": "2020-05-16T07:40:00Z",
+          "endsAt": "2020-05-16T08:10:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "bc68c9a4-b322-43a0-a6a4-4c7af8401223",
+              "name": "M365 May"
+            },
+            {
+              "id": "890325cc-2710-4843-8248-6c7cfa0c4a7d",
+              "name": "Darrell Webster"
+            },
+            {
+              "id": "c1ecca96-0c33-4b08-bdc1-a7f104ec83c9",
+              "name": "Loryan Strant"
+            },
+            {
+              "id": "990f1b24-b1a9-43c3-bd72-7f99ea63668f",
+              "name": "Rebecca Jackson"
+            },
+            {
+              "id": "3a3bd08a-0747-4b30-a35a-8f3ed2931cdc",
+              "name": "Megan Strant"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "199476",
+          "title": "Weekly Wrap Up 4",
+          "description": "Live session discussing the weeks presentations and events with session moderators and guests",
+          "startsAt": "2020-05-22T22:00:00Z",
+          "endsAt": "2020-05-22T22:30:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "bc68c9a4-b322-43a0-a6a4-4c7af8401223",
+              "name": "M365 May"
+            },
+            {
+              "id": "890325cc-2710-4843-8248-6c7cfa0c4a7d",
+              "name": "Darrell Webster"
+            },
+            {
+              "id": "c1ecca96-0c33-4b08-bdc1-a7f104ec83c9",
+              "name": "Loryan Strant"
+            },
+            {
+              "id": "990f1b24-b1a9-43c3-bd72-7f99ea63668f",
+              "name": "Rebecca Jackson"
+            },
+            {
+              "id": "3a3bd08a-0747-4b30-a35a-8f3ed2931cdc",
+              "name": "Megan Strant"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "199477",
+          "title": "Weekly Wrap Up 5",
+          "description": "Live session discussing the weeks presentations and events with session moderators and guests",
+          "startsAt": "2020-05-29T22:00:00Z",
+          "endsAt": "2020-05-29T22:30:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "bc68c9a4-b322-43a0-a6a4-4c7af8401223",
+              "name": "M365 May"
+            },
+            {
+              "id": "890325cc-2710-4843-8248-6c7cfa0c4a7d",
+              "name": "Darrell Webster"
+            },
+            {
+              "id": "c1ecca96-0c33-4b08-bdc1-a7f104ec83c9",
+              "name": "Loryan Strant"
+            },
+            {
+              "id": "990f1b24-b1a9-43c3-bd72-7f99ea63668f",
+              "name": "Rebecca Jackson"
+            },
+            {
+              "id": "3a3bd08a-0747-4b30-a35a-8f3ed2931cdc",
+              "name": "Megan Strant"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "199964",
+          "title": "Welcome to Microsoft 365 May",
+          "description": "Event organisers Megan, Loryan and Rebecca set the scene on the intent of M365 May and what you can expect across the month,",
+          "startsAt": "2020-04-30T22:00:00Z",
+          "endsAt": "2020-04-30T22:30:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "bc68c9a4-b322-43a0-a6a4-4c7af8401223",
+              "name": "M365 May"
+            },
+            {
+              "id": "c1ecca96-0c33-4b08-bdc1-a7f104ec83c9",
+              "name": "Loryan Strant"
+            },
+            {
+              "id": "3a3bd08a-0747-4b30-a35a-8f3ed2931cdc",
+              "name": "Megan Strant"
+            },
+            {
+              "id": "990f1b24-b1a9-43c3-bd72-7f99ea63668f",
+              "name": "Rebecca Jackson"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "191861",
+          "title": "What can Activity Based Working teach us about adoption of Microsoft Teams?",
+          "description": "Working in Microsoft Teams has a lot in common with activity based working.   Members of project teams gather and work together in either physical or virtual locations. Members are in frequent contact, maintaining an awareness of what everyone is working on.\r\n\r\nThis session will compare the similarities and differences, strengths and weaknesses of Activity Based Working and working from Microsoft Teams. The session will draw conclusions that will give your Teams adoption programme a better understanding of how to align with teamwork.",
+          "startsAt": "2020-05-27T03:00:00Z",
+          "endsAt": "2020-05-27T03:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "890325cc-2710-4843-8248-6c7cfa0c4a7d",
+              "name": "Darrell Webster"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197847",
+          "title": "What does intranet success look like?",
+          "description": "Office 365 delivers a huge portfolio of tools and capabilities into organisations, but these are only of value if they are used by staff in productive ways. This session will showcase a variety of intranets that have delivered tangible benefits to staff and the organisation. \r\nIn this session you will:\r\n* see screenshots and hear success stories from small not-for-profits to global corporations\r\n* see intranet examples that are out-of-the-box to fully customised\r\n* learn why the enterprise front door approach is crucial to success\r\n",
+          "startsAt": "2020-05-18T03:00:00Z",
+          "endsAt": "2020-05-18T03:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "e04a62b7-53e0-47bc-a7a2-da2dc86bc65c",
+              "name": "Catherine Grenfell"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198874",
+          "title": "What we learned from analysing 5,300 teams on Microsoft Teams (Sponsor)",
+          "description": "SWOOP Analytics has conducted the world's first benchmarking of Microsoft Teams, analysing more than 5,300 teams from 15 organisations worldwide and more than a million Teams interactions to get a broad overview of how Teams operates.\r\n\r\nWe'll share with you worst practices in Teams, how to avoid them and what you can do better, show you what a high performing team looks like and share real-life best practices from customers.\r\n\r\nSPEAKERS:\r\nSWOOP Analytics Chief Scientist Dr Laurence Lock Lee will share insights gained from the analysis. SWOOP's Director APAC of Customer Success Emily O'Brien will reveal what a best practice teams looks like and SWOOP Director Sharon Dawson will share insights from one of the highest perfoming organisations in the benchmarking study on how they use Teams and Yammer together.",
+          "startsAt": "2020-05-01T03:00:00Z",
+          "endsAt": "2020-05-01T04:00:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "dd49a548-6a63-4bd2-bce5-719744395f21",
+              "name": "Laurence Lock Lee"
+            },
+            {
+              "id": "eb6edeb7-ef9b-4c5e-b8c5-58c882f35841",
+              "name": "Emily O'Brien"
+            },
+            {
+              "id": "622a8873-d520-489e-a302-de1892b6ddff",
+              "name": "Sharon Dawson"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198525",
+          "title": "Which is a Better Start Page - SharePoint Homepage or Teams as your Work Hub?",
+          "description": "The death of the homepage on the web and intranets has long been predicted. But the truth of this matter is more complicated. We do know that people struggle with the volume of choice in the Office 365 toolset and that Teams offer a compelling vision for an integrated work hub. So is it time to retire the SharePoint home page? \r\n\r\nThe session will cover:\r\n1. Industry trends - is the SharePoint homepage really dead?\r\n2. Be careful what you wish for - the pros and cons of using SharePoint vs Teams as your start page\r\n3. Reframing the question - strategies for creating a fit-for-purpose user experience",
+          "startsAt": "2020-05-04T22:00:00Z",
+          "endsAt": "2020-05-04T23:00:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "06845846-741a-4acb-917b-4cad87d54285",
+              "name": "James Dellow"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "195710",
+          "title": "Why and How to implement Governance of the Power Platform",
+          "description": "The PowerPlatform has enabled incredible business agility. But at some point, in the calm between creating new apps and flows, one does wonder - how do we support these business critical applications?\r\n\r\nIT is charged with guarding business policies and mitigating business risk. As much as the power platform is a blessing for the business, it can be just as much as it is a risk to IT. How to reconcile the challenges we face on both sides?\r\n\r\nLooking across the myriad of products being added to the Power Platform - we must prepare and extend our toolset to tackle the unknown.\r\n\r\nThis talk is about out of box options, customized solutions and then the beyond into custom governance solutions.",
+          "startsAt": "2020-05-26T06:00:00Z",
+          "endsAt": "2020-05-26T06:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "6f0ac014-a9b5-4aa1-9195-ad4b6b1d396a",
+              "name": "John Liu"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198234",
+          "title": "Why UI and UX Matters for Power Apps",
+          "description": "When implementing business applications, we always strive to adopt the latest cutting-edge technology trend. However, many a times we often overlook the importance of user interface (UI) and user experience (UX)\r\n\r\nIn this session I will discuss how UI and UX design can make your simple app looks awesome!",
+          "startsAt": "2020-05-16T03:00:00Z",
+          "endsAt": "2020-05-16T03:30:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "30745a47-3d98-4547-b3b6-e3175a1f4bdb",
+              "name": "Ee Lane Yu"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "197365",
+          "title": "Work/Life borders in a world where work is in the middle of your life",
+          "description": "Let's face it, we have all been thrown in the deep end - many of us working from the home office/kitchen table/garage for a long period of time, for the first time.\r\n\r\nIn this session Paul will talk about the challenges we all face in maintaining any resemblance of strength in the borders between our work, and non-work lives.  Not only the physical borders, but the temporal, and psychological borders too.  \r\n\r\nBased on his work with the Queensland University of Technology Work/Industry Futures Research group, Paul will share some of discoveries from his research, and the strategies you can put in place to better manage your borders between work and life... with a particular emphasis on how simple things you can do in or with Microsoft 365 can make a big difference.",
+          "startsAt": "2020-05-19T01:30:00Z",
+          "endsAt": "2020-05-19T02:00:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "57b5609d-d073-448e-9b02-5edd924a80c3",
+              "name": "Paul Woods "
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "189835",
+          "title": "Yammer as a Strategic Talent and Capability Coordination tool",
+          "description": "Yammer is more than communication. How organisations can realise their strategy and leverage the potential of their people using Yammer. This session will explore practical steps to make use of the hidden value in your Yammer network. ",
+          "startsAt": "2020-05-28T00:45:00Z",
+          "endsAt": "2020-05-28T01:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "c2fbd1fb-173a-4c49-bcaf-f0c5d313c35f",
+              "name": "Simon Terry"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        },
+        {
+          "questionAnswers": [],
+          "id": "198133",
+          "title": "Yammer Community Management in 10 film quotes",
+          "description": "Was Yoda referring to Yammer when he said \"Unlearn what you have learned\"?  What does happen \"If you build it, he will come\"?  Join Matt as he takes a trip through his experience as a Community Manager,  sharing how 10 film quotes have helped him shape his approach to getting the most from Yammer.\r\n\r\nYou'll takeaway:\r\n - Suggested ways to deal with the issues of adoption and engagement\r\n - How embracing the social aspect of Yammer delivers value\r\n- The power of shared culture and connections in building collaboration\r\n\r\n",
+          "startsAt": "2020-05-20T04:00:00Z",
+          "endsAt": "2020-05-20T04:45:00Z",
+          "isServiceSession": false,
+          "isPlenumSession": false,
+          "speakers": [
+            {
+              "id": "23722180-faf7-4706-819b-24b68b43e515",
+              "name": "Matthew Dodd"
+            }
+          ],
+          "categories": [],
+          "roomId": 13207,
+          "room": "Room 1"
+        }
+      ]
+    }
+  ]

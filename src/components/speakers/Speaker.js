@@ -20,16 +20,32 @@ class SpeakerProfile extends React.Component {
     componentDidMount() {
         
         const { match: { params } } = this.props.match ? this.props : { match: {params: {} } };
-        axios.get(`https://click.m365may.com/data/speaker/${params.id || this.props.id}`).then( response => {
-            this.setState({
-                isLoading: false,
-                speakerData: response.data
-            });
+        axios.get(`/data/speakers.json?${new Date().getFullYear()}-${new Date().getMonth() + 1}-${new Date().getDate()}-${new Date().getHours()}`).then( response => {
+            const filteredSpeaker = response.data.filter(speaker => { return speaker.id === (params.id || this.props.id) });
+            if (filteredSpeaker && filteredSpeaker.length && filteredSpeaker.length > 0) {
+                this.setState({
+                    isLoading: false,
+                    speakerData: filteredSpeaker[0]
+                });
+            } else {
+                this.setState({
+                    isLoading: false
+                });
+            }
         }).catch( error => { 
-            this.setState({
-                isLoading: false,
-                isError: true,
-                speakerData: null
+            axios.get(`https://click.m365may.com/data/speaker/${params.id || this.props.id}`).then( response => {
+                this.setState({
+                    isLoading: false,
+                    speakerData: response.data
+                });
+            }).catch( error => { 
+
+                this.setState({
+                    isLoading: false,
+                    isError: true,
+                    speakerData: null
+                });
+
             });
         });
     }

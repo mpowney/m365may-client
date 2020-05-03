@@ -6,6 +6,8 @@ import axios from 'axios';
 import './SessionsLive.css';
 import SpeakerProfile from '../speakers/Speaker';
 
+import { SESSIONS_JSON } from './../../index';
+
 class SessionsLive extends React.Component {
 
     constructor(props) {
@@ -72,7 +74,7 @@ class SessionsLive extends React.Component {
         const nowISO = now.toISOString();
         console.log(`Current time: ${now}, ${offsetMinutes}, ${bufferMinutes}`);
 
-        axios.get('https://click.m365may.com/data/sessions').then( response => {
+        axios.get(SESSIONS_JSON).then( response => {
             console.log(response.data[0].sessions);
             this.setState({
                 isLoading: false,
@@ -92,8 +94,9 @@ class SessionsLive extends React.Component {
 
     checkSession(session, nowISO, bufferMilliseconds) {
 
-        if (new Date(nowISO).getTime() > new Date(session.startsAt).getTime() - bufferMilliseconds
-            && new Date(nowISO).getTime() < new Date(session.endsAt).getTime() + bufferMilliseconds) {
+        const forceLiveLink = (this.getParameterByName('force') || "").length > 0;
+        if (forceLiveLink || (new Date(nowISO).getTime() > new Date(session.startsAt).getTime() - bufferMilliseconds
+            && new Date(nowISO).getTime() < new Date(session.endsAt).getTime() + bufferMilliseconds)) {
                 session.showLiveLink = true;
         }
         return session;
@@ -361,7 +364,7 @@ class SessionsLive extends React.Component {
                                     <span><a href={`https://click.m365may.com/calendar/session/${session.id}?ical`}><Icon iconName="CalendarReply" /> Add to calendar</a></span>
                                 </div>
                                 {session.showLiveLink && <div className="sessionCalendarNowLive">
-                                    <span><a href={`https://click.m365may.com/redirect/session/${session.id}/`}>
+                                    <span><a href={`https://click.m365may.com/redirect/session/${session.id}/`} target="_top">
                                         <Icon iconName="Volume3" className={`videoIcon videoIcon1 ${this.state.videoIconCycle < 3 && 'videoIconHidden'}`} style={{ ...AnimationStyles.fadeIn100 }} />
                                         <Icon iconName="Volume2" className={`videoIcon videoIcon2 ${this.state.videoIconCycle < 2 && 'videoIconHidden'}`} style={{ ...AnimationStyles.fadeIn100}} />
                                         <Icon iconName="Volume1" className={`videoIcon videoIcon3 `} style={{ ...AnimationStyles.fadeIn100}} /> Join now</a></span>
