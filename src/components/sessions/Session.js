@@ -6,7 +6,7 @@ import axios from 'axios';
 import './Session.css';
 import SpeakerProfile from '../speakers/Speaker';
 import { Icon } from '@fluentui/react';
-import { SESSIONS_JSON } from './../../index';
+import { SESSIONS_JSON, VIDEOS_JSON } from './../../index';
 
 class Session extends React.Component {
 
@@ -15,6 +15,7 @@ class Session extends React.Component {
         this.state = {
             videoIconCycle: 1,
             sessionData: null,
+            videosData: [],
             isError: false,
             isLoading: true
         };
@@ -61,6 +62,16 @@ class Session extends React.Component {
                     isError: true,
                     sessionData: null
                 });
+            });
+        });
+
+        axios.get(VIDEOS_JSON).then( response => {
+            this.setState({
+                videosData: response.data
+            });
+        }).catch(error => {
+            this.setState({
+                videosData: []
             });
         });
 
@@ -149,6 +160,9 @@ class Session extends React.Component {
                             <Icon iconName="Volume2" className={`videoIcon videoIcon2 ${this.state.videoIconCycle < 2 && 'videoIconHidden'}`} style={{ ...AnimationStyles.fadeIn100}} />
                             <Icon iconName="Volume1" className={`videoIcon videoIcon3 `} style={{ ...AnimationStyles.fadeIn100}} /> Join now</a></span>
                     </div>}
+                    {(this.state.videosData.filter(video => { return (video.RowKey || video.rowKey) === this.state.sessionData.id; }).length > 0) && <div className="sessionVideoLink">
+                            <span><a href={`https://click.m365may.com/redirect/video/${this.state.sessionData.id}/`} target="_top"><Icon iconName="MSNVideosSolid" /> Watch the recording</a></span>
+                        </div>}
                     <div className="sessionSpeakers">
                         {this.state.sessionData.speakers.map( speaker => {
                             return <SpeakerProfile disableBorder={true} disablePadding={true} id={speaker.id} />

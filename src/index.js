@@ -4,7 +4,6 @@ import {
   BrowserRouter as Router,
   Switch,
   Route } from "react-router-dom";
-import SessionList from "./components/sessions/SessionList";
 import SessionsLive from "./components/sessions/SessionsLive";
 import MapChart from "./components/maps/MapChart";
 import SpeakerProfile from "./components/speakers/Speaker";

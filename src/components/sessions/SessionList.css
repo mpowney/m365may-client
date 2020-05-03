@@ -8,6 +8,15 @@
     width: 200px;
 }
 
+.noSessions {
+    margin: 24px;
+    color: #666;
+    font-family: open sans,sans-serif;
+    font-size: 15px;
+    line-height: 24px;
+    font-weight: 400;
+}
+
 .sessionList {
     color: #666;
     font-family: open sans,sans-serif;

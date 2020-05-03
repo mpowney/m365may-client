@@ -6,7 +6,7 @@ import axios from 'axios';
 import './SessionList.css';
 import SpeakerProfile from '../speakers/Speaker';
 
-import { SESSIONS_JSON } from './../../index';
+import { SESSIONS_JSON, VIDEOS_JSON } from './../../index';
 
 class SessionList extends React.Component {
 
@@ -69,7 +69,20 @@ class SessionList extends React.Component {
                 isLoading: false,
                 sessionData: []
             });
-        })
+        });
+
+        axios.get(VIDEOS_JSON).then( response => {
+            this.setState({
+                isLoading: false,
+                videosData: response.data
+            });
+        }).catch(error => {
+            this.setState({
+                isLoading: false,
+                videosData: []
+            });
+        });
+
     }
     
     applySorting(items, sorting) {
@@ -184,6 +197,11 @@ class SessionList extends React.Component {
         }
         speakers = this.applySorting(speakers, [ { fieldName: 'name', isSorted: true, isSortedDescending: false }]);
 
+        let appliedFilters = [];
+        this.state.dateFilter && appliedFilters.push(`for ${DateTime.fromJSDate(this.state.dateFilter).toFormat('EEE d MMM yyyy')}`);
+        this.state.speakerFilter && appliedFilters.push(`speaker ${speakers.filter(checkSpeaker => {return checkSpeaker.id === this.state.speakerFilter})[0].name }`);
+        this.state.wordFilter && appliedFilters.push(`words '${this.state.wordFilter}'`);
+
         return (
             <div className="sessionList">
                 <div className="ms-Grid" dir="ltr">
@@ -220,6 +238,10 @@ class SessionList extends React.Component {
                     </div>
                 </div>
 
+                { (!items || items.length === 0) && <div className="noSessions">
+                    No sessions match the current filter ({appliedFilters.join(", ")})
+                </div> }
+                
                 {this.state.speakerCalloutId && <Callout
                     className="speakerCallout"
                     role="alertdialog"
@@ -295,7 +317,7 @@ class SessionList extends React.Component {
                                     <span>{DateTime.fromISO(session.endsAt).diff(DateTime.fromISO(session.startsAt), 'minutes').minutes} minutes</span>
                                 </div>
                                 <div className="sessionCalendarLink">
-                                    <span><a href={`https://click.m365may.com/calendar/session/${session.id}?ical`}><Icon iconName="CalendarReply" /> Add to calendar</a></span>
+                                    <span><a href={`https://click.m365may.com/calendar/session/${session.id}?ical`} target="_top"><Icon iconName="CalendarReply" /> Add to calendar</a></span>
                                 </div>
                             </div>);
 

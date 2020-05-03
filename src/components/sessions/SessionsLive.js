@@ -6,7 +6,7 @@ import axios from 'axios';
 import './SessionsLive.css';
 import SpeakerProfile from '../speakers/Speaker';
 
-import { SESSIONS_JSON } from './../../index';
+import { SESSIONS_JSON, VIDEOS_JSON } from './../../index';
 
 class SessionsLive extends React.Component {
 
@@ -42,6 +42,7 @@ class SessionsLive extends React.Component {
 
         this.state = {
             sessionData: [ { ...dummySession, id: "1"}, { ...dummySession, id: "2"}, { ...dummySession, id: "3"}, { ...dummySession, id: "4"}],
+            videosData: [],
             sorting: [ { fieldName: 'startsAt', isSorted: true, isSortedDescending: false }],
             dateFilter: defaultDateFilterValue,
             speakerFilter: null,
@@ -84,6 +85,16 @@ class SessionsLive extends React.Component {
             this.setState({
                 isLoading: false,
                 sessionData: []
+            });
+        });
+
+        axios.get(VIDEOS_JSON).then( response => {
+            this.setState({
+                videosData: response.data
+            });
+        }).catch(error => {
+            this.setState({
+                videosData: []
             });
         });
 
@@ -250,6 +261,11 @@ class SessionsLive extends React.Component {
         }
         speakers = this.applySorting(speakers, [ { fieldName: 'name', isSorted: true, isSortedDescending: false }]);
 
+        let appliedFilters = [];
+        this.state.dateFilter && appliedFilters.push(`for ${DateTime.fromJSDate(this.state.dateFilter).toFormat('EEE d MMM yyyy')}`);
+        this.state.speakerFilter && appliedFilters.push(`speaker ${speakers.filter(checkSpeaker => {return checkSpeaker.id === this.state.speakerFilter})[0].name }`);
+        this.state.wordFilter && appliedFilters.push(`words '${this.state.wordFilter}'`);
+    
         return (
             <div className="SessionsLive">
                 <div className="ms-Grid" dir="ltr">
@@ -286,6 +302,10 @@ class SessionsLive extends React.Component {
                     </div>
                 </div>
 
+                { (!items || items.length === 0) && <div className="noSessions">
+                    No sessions match the current filter ({appliedFilters.join(", ")})
+                </div> }
+                
                 {this.state.speakerCalloutId && <Callout
                     className="speakerCallout"
                     role="alertdialog"
@@ -361,7 +381,7 @@ class SessionsLive extends React.Component {
                                     <span>{DateTime.fromISO(session.endsAt).diff(DateTime.fromISO(session.startsAt), 'minutes').minutes} minutes</span>
                                 </div>
                                 <div className="sessionCalendarLink">
-                                    <span><a href={`https://click.m365may.com/calendar/session/${session.id}?ical`}><Icon iconName="CalendarReply" /> Add to calendar</a></span>
+                                    <span><a href={`https://click.m365may.com/calendar/session/${session.id}?ical`} target="_top"><Icon iconName="CalendarReply" /> Add to calendar</a></span>
                                 </div>
                                 {session.showLiveLink && <div className="sessionCalendarNowLive">
                                     <span><a href={`https://click.m365may.com/redirect/session/${session.id}/`} target="_top">
@@ -369,6 +389,9 @@ class SessionsLive extends React.Component {
                                         <Icon iconName="Volume2" className={`videoIcon videoIcon2 ${this.state.videoIconCycle < 2 && 'videoIconHidden'}`} style={{ ...AnimationStyles.fadeIn100}} />
                                         <Icon iconName="Volume1" className={`videoIcon videoIcon3 `} style={{ ...AnimationStyles.fadeIn100}} /> Join now</a></span>
                                 </div>}
+                                {(this.state.videosData.filter(video => { return (video.RowKey || video.rowKey) === session.id; }).length > 0) && <div className="sessionVideoLink">
+                                        <span><a href={`https://click.m365may.com/redirect/video/${session.id}/`} target="_top"><Icon iconName="MSNVideosSolid" /> Watch the recording</a></span>
+                                    </div>}
                             </div>);
 
                 })}
