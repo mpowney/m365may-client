@@ -1,10 +1,11 @@
 import React from 'react';
-import { Icon, DatePicker, DayOfWeek, DefaultButton, Dropdown, Callout, TextField, Shimmer } from '@fluentui/react';
+import { Icon, DatePicker, DayOfWeek, DefaultButton, ComboBox, Callout, TextField, Shimmer } from '@fluentui/react';
 import { AnimationStyles } from '@fluentui/react/lib/Styling';
 
 import axios from 'axios';
 import './SessionsLive.css';
 import SpeakerProfile from '../speakers/Speaker';
+import JoinNow from './JoinNow';
 
 import { SESSIONS_JSON, VIDEOS_JSON } from './../../index';
 
@@ -49,8 +50,7 @@ class SessionsLive extends React.Component {
             wordFilter: null,
             speakerCalloutTarget: null,
             speakerCalloutId: null,
-            isLoading: true,
-            videoIconCycle: 1
+            isLoading: true
         }
 
         this.updateDateFilter = this.updateDateFilter.bind(this);
@@ -58,7 +58,6 @@ class SessionsLive extends React.Component {
         this.updateWordFilter = this.updateWordFilter.bind(this);
         this.clickSpeaker = this.clickSpeaker.bind(this);
         this.clearSpeakerCallout = this.clearSpeakerCallout.bind(this);
-        this.cycleVideoIcons = this.cycleVideoIcons.bind(this);
         this.cycleCheckSessions = this.cycleCheckSessions.bind(this);
 
     }
@@ -76,11 +75,12 @@ class SessionsLive extends React.Component {
         console.log(`Current time: ${now}, ${offsetMinutes}, ${bufferMinutes}`);
 
         axios.get(SESSIONS_JSON).then( response => {
-            console.log(response.data[0].sessions);
+
             this.setState({
                 isLoading: false,
                 sessionData: response.data[0].sessions.map(session => { return this.checkSession(session, nowISO, bufferMilliseconds); })
             });
+
         }).catch(error => {
             this.setState({
                 isLoading: false,
@@ -98,7 +98,6 @@ class SessionsLive extends React.Component {
             });
         });
 
-        window.setInterval(this.cycleVideoIcons, 500);
         window.setInterval(this.cycleCheckSessions, 20000);
 
     }
@@ -115,7 +114,7 @@ class SessionsLive extends React.Component {
 
     getParameterByName(name, url) {
         if (!url) url = window.location.href;
-        name = name.replace(/[\[\]]/g, '\\$&');
+        name = name.replace(/[[\]]/g, '\\$&');
         var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
             results = regex.exec(url);
         if (!results) return null;
@@ -139,16 +138,6 @@ class SessionsLive extends React.Component {
         });
     }
 
-    cycleVideoIcons() {
-        let videoIconCycle = this.state.videoIconCycle + 1;
-        if (videoIconCycle > 3) {
-            videoIconCycle = 1;
-        }
-        this.setState({
-            videoIconCycle: videoIconCycle
-        })
-    }
-    
     applySorting(items, sorting) {
         let returnItems = [...(items || [])];
         for (const sortOption of sorting) {
@@ -184,7 +173,7 @@ class SessionsLive extends React.Component {
     updateSpeakerFilter(el, selectedOption) {
         this.setState({
             dateFilter: null,
-            speakerFilter: selectedOption.key
+            speakerFilter: selectedOption?.key
         });
     }
 
@@ -208,6 +197,8 @@ class SessionsLive extends React.Component {
     }
     
     render() {
+
+        console.log(`render() executing`);
         
         const DayPickerStrings = {
             months: [
@@ -286,7 +277,10 @@ class SessionsLive extends React.Component {
 
                         </div>
                         <div className="ms-Grid-col">
-                            <Dropdown 
+                            <ComboBox
+                                allowFreeform
+                                autoCapitalize='on'
+                                autoComplete='on'
                                 selectedKey={this.state.speakerFilter}
                                 placeholder="Select a speaker"
                                 label="By speaker"
@@ -296,7 +290,7 @@ class SessionsLive extends React.Component {
                             <DefaultButton onClick={() => { this.setState({speakerFilter: null})}} text="Clear" className="clearSpeakerButton" />
                         </div>
                         <div className="ms-Grid-col">
-                            <TextField value={this.state.wordFilter} className="wordFilterTextField" label="Filter by words" iconProps={{ iconName: 'Search' }} onChange={this.updateWordFilter} />
+                            <TextField value={this.state.wordFilter || ''} className="wordFilterTextField" label="Filter by words" iconProps={{ iconName: 'Search' }} onChange={this.updateWordFilter} />
                             <DefaultButton onClick={() => { this.setState({wordFilter: null})}} text="Clear" className="clearWordButton" />
                         </div>
                     </div>
@@ -383,14 +377,9 @@ class SessionsLive extends React.Component {
                                 <div className="sessionCalendarLink">
                                     <span><a href={`https://click.m365may.com/calendar/session/${session.id}?ical`} target="_top"><Icon iconName="CalendarReply" /> Add to calendar</a></span>
                                 </div>
-                                {session.showLiveLink && <div className="sessionCalendarNowLive">
-                                    <span><a href={`https://click.m365may.com/redirect/session/${session.id}/`} target="_top">
-                                        <Icon iconName="Volume3" className={`videoIcon videoIcon1 ${this.state.videoIconCycle < 3 && 'videoIconHidden'}`} style={{ ...AnimationStyles.fadeIn100 }} />
-                                        <Icon iconName="Volume2" className={`videoIcon videoIcon2 ${this.state.videoIconCycle < 2 && 'videoIconHidden'}`} style={{ ...AnimationStyles.fadeIn100}} />
-                                        <Icon iconName="Volume1" className={`videoIcon videoIcon3 `} style={{ ...AnimationStyles.fadeIn100}} /> Join now</a></span>
-                                </div>}
+                                {session.showLiveLink && <JoinNow href={`https://click.m365may.com/redirect/session/${session.id}/`} label={` Join now`} />}
                                 {(this.state.videosData.filter(video => { return (video.RowKey || video.rowKey) === session.id; }).length > 0) && <div className="sessionVideoLink">
-                                        <span><a href={`https://click.m365may.com/redirect/video/${session.id}/`} target="_top"><Icon iconName="MSNVideosSolid" /> Watch the recording</a></span>
+                                        <span><a href={`https://click.m365may.com/redirect/video/${session.id}/`} target="_blank"><Icon iconName="MSNVideosSolid" /> Watch the recording</a></span>
                                     </div>}
                             </div>);
 

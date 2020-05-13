@@ -5,6 +5,7 @@ import { AnimationStyles } from '@fluentui/react/lib/Styling';
 import axios from 'axios';
 import './Session.css';
 import SpeakerProfile from '../speakers/Speaker';
+import JoinNow from './JoinNow';
 import { Icon } from '@fluentui/react';
 import { SESSIONS_JSON, VIDEOS_JSON } from './../../index';
 
@@ -98,7 +99,7 @@ class Session extends React.Component {
 
     getParameterByName(name, url) {
         if (!url) url = window.location.href;
-        name = name.replace(/[\[\]]/g, '\\$&');
+        name = name.replace(/[[\]]/g, '\\$&');
         var regex = new RegExp('[?&]' + name + '(=([^&#]*)|&|#|$)'),
             results = regex.exec(url);
         if (!results) return null;
@@ -154,14 +155,9 @@ class Session extends React.Component {
                     <div className="sessionCalendarLink">
                         <span><a href={`https://click.m365may.com/calendar/session/${params.id || this.props.id}?ical`}><Icon iconName="CalendarReply" /> Add to calendar</a></span>
                     </div>
-                    {this.state.sessionData.showLiveLink && <div className="sessionCalendarNowLive">
-                        <span><a href={`https://click.m365may.com/redirect/session/${this.state.sessionData.id}/`} target="_top">
-                            <Icon iconName="Volume3" className={`videoIcon videoIcon1 ${this.state.videoIconCycle < 3 && 'videoIconHidden'}`} style={{ ...AnimationStyles.fadeIn100 }} />
-                            <Icon iconName="Volume2" className={`videoIcon videoIcon2 ${this.state.videoIconCycle < 2 && 'videoIconHidden'}`} style={{ ...AnimationStyles.fadeIn100}} />
-                            <Icon iconName="Volume1" className={`videoIcon videoIcon3 `} style={{ ...AnimationStyles.fadeIn100}} /> Join now</a></span>
-                    </div>}
+                    {this.state.sessionData.showLiveLink && <JoinNow href={`https://click.m365may.com/redirect/session/${this.state.sessionData.id}/`} label={` Join now`} /> }
                     {(this.state.videosData.filter(video => { return (video.RowKey || video.rowKey) === this.state.sessionData.id; }).length > 0) && <div className="sessionVideoLink">
-                            <span><a href={`https://click.m365may.com/redirect/video/${this.state.sessionData.id}/`} target="_top"><Icon iconName="MSNVideosSolid" /> Watch the recording</a></span>
+                            <span><a href={`https://click.m365may.com/redirect/video/${this.state.sessionData.id}/`} target="_blank"><Icon iconName="MSNVideosSolid" /> Watch the recording</a></span>
                         </div>}
                     <div className="sessionSpeakers">
                         {this.state.sessionData.speakers.map( speaker => {

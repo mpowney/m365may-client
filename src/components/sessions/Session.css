@@ -60,22 +60,3 @@
     padding-right: 6px;
 }
 
-.sessionCalendarNowLive {
-    position: relative;
-    background-color: #f25022;
-    color: #fff;
-}
-.sessionCalendarNowLive span a {
-    color: #fff;
-    padding-left: 24px;
-    padding: 2px 8px 2px 28px;
-    text-decoration: none;
-}
-.videoIcon {
-    top: 0;
-    left: 6px;
-    position: absolute;
-}
-.videoIconHidden {
-    display: none;
-}
