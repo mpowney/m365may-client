@@ -56,11 +56,18 @@ function App() {
           <Route path="/sessions/live">
             <SessionsLive />
           </Route>
+          <Route path="/sessions-new/">
+            <SessionsLive />
+          </Route>
           <Route path="/sessions">
+            <SessionsLive />
+          </Route>
+          <Route path="/sessions/">
             <SessionsLive />
           </Route>
           <Route path="/speaker/:id" component={SpeakerProfile}></Route>
           <Route path="/session/:id" component={Session}></Route>
+          <Route path="/session-details/:id/" component={Session}></Route>
         </Switch>
       </Router>
     </div>
