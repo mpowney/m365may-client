@@ -20,7 +20,6 @@ class Session extends React.Component {
             isLoading: true
         };
 
-        this.cycleVideoIcons = this.cycleVideoIcons.bind(this);
         this.cycleCheckSessions = this.cycleCheckSessions.bind(this);
 
     }
