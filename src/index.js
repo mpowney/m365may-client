@@ -73,7 +73,7 @@ function App() {
           <Route path="/session-new/:id" component={Session}></Route>
           <Route path="/session-details/:id/" component={Session}></Route>
           <Route path="/session-details-new/:id/" component={Session}></Route>
-          <Route path="/redirect/session//:id/" component={Session}></Route>
+          <Route path="/redirect/session/:id/" component={Session}></Route>
           <Route path="/redirect/session-new/:id/" component={Session}></Route>
         </Switch>
       </Router>
