@@ -45,6 +45,8 @@ export const VIDEOS_JSON = (getParameterByName('api') || "") === "click" ?
   :
   `${process.env.REACT_APP_JSON_HOST}/data/videos.json?${new Date().getFullYear()}-${new Date().getMonth() + 1}-${new Date().getDate()}-${new Date().getHours()}`
 
+export const SPEAKERS_JSON = `${process.env.REACT_APP_JSON_HOST}/data/speakers.json?${new Date().getFullYear()}-${new Date().getMonth() + 1}-${new Date().getDate()}-${new Date().getHours()}`
+
 function App() {
   return (
     <div>

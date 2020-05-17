@@ -4,6 +4,7 @@ import React from 'react';
 import axios from 'axios';
 import './Speaker.css';
 import { Shimmer, ShimmerElementsGroup, ShimmerElementType } from '@fluentui/react';
+import { SPEAKERS_JSON } from './../../index';
 
 class SpeakerProfile extends React.Component {
 
@@ -20,7 +21,7 @@ class SpeakerProfile extends React.Component {
     componentDidMount() {
         
         const { match: { params } } = this.props.match ? this.props : { match: {params: {} } };
-        axios.get(`/data/speakers.json?${new Date().getFullYear()}-${new Date().getMonth() + 1}-${new Date().getDate()}-${new Date().getHours()}`).then( response => {
+        axios.get(SPEAKERS_JSON).then( response => {
             const filteredSpeaker = response.data.filter(speaker => { return speaker.id === (params.id || this.props.id) });
             if (filteredSpeaker && filteredSpeaker.length && filteredSpeaker.length > 0) {
                 this.setState({
