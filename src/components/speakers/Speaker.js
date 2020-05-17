@@ -33,7 +33,7 @@ class SpeakerProfile extends React.Component {
                 });
             }
         }).catch( error => { 
-            axios.get(`https://click.m365may.com/data/speaker/${params.id || this.props.id}`).then( response => {
+            axios.get(`${process.env.REACT_APP_AZ_FUNCTION_HOST}/data/speaker/${params.id || this.props.id}`).then( response => {
                 this.setState({
                     isLoading: false,
                     speakerData: response.data

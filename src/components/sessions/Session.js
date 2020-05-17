@@ -52,7 +52,7 @@ class Session extends React.Component {
                 });
             }
         }).catch( error => { 
-            axios.get(`https://click.m365may.com/calendar/session/${params.id || this.props.id}`).then( response => {
+            axios.get(`${process.env.REACT_APP_AZ_FUNCTION_HOST}/calendar/session/${params.id || this.props.id}`).then( response => {
                 this.setState({
                     isLoading: false,
                     sessionData: this.checkSession(response.data, nowISO, bufferMilliseconds)
@@ -153,11 +153,11 @@ class Session extends React.Component {
                         <span>{DateTime.fromISO(this.state.sessionData.endsAt).diff(DateTime.fromISO(this.state.sessionData.startsAt), 'minutes').minutes} minutes</span>
                     </div>
                     <div className="sessionCalendarLink">
-                        <span><a href={`https://click.m365may.com/calendar/session/${params.id || this.props.id}?ical`}><Icon iconName="CalendarReply" /> Add to calendar</a></span>
+                        <span><a href={`${process.env.REACT_APP_AZ_FUNCTION_HOST}/calendar/session/${params.id || this.props.id}?ical`}><Icon iconName="CalendarReply" /> Add to calendar</a></span>
                     </div>
-                    {this.state.sessionData.showLiveLink && <JoinNow href={`https://click.m365may.com/redirect/session/${this.state.sessionData.id}/`} label={` Join now`} /> }
+                    {this.state.sessionData.showLiveLink && <JoinNow href={`${process.env.REACT_APP_AZ_FUNCTION_HOST}/redirect/session/${this.state.sessionData.id}/`} label={` Join now`} /> }
                     {(this.state.videosData.filter(video => { return (video.RowKey || video.rowKey) === this.state.sessionData.id; }).length > 0) && <div className="sessionVideoLink">
-                            <span><a href={`https://click.m365may.com/redirect/video/${this.state.sessionData.id}/`} target="_blank"><Icon iconName="MSNVideosSolid" /> Watch the recording</a></span>
+                            <span><a href={`${process.env.REACT_APP_AZ_FUNCTION_HOST}/redirect/video/${this.state.sessionData.id}/`} target="_blank"><Icon iconName="MSNVideosSolid" /> Watch the recording</a></span>
                         </div>}
                     <div className="sessionSpeakers">
                         {this.state.sessionData.speakers.map( speaker => {

@@ -36,12 +36,12 @@ function getParameterByName(name, url) {
 }
 
 export const SESSIONS_JSON = (getParameterByName('api') || "") === "click" ?
-  "https://click.m365may.com/data/sessions"
+  `${process.env.REACT_APP_AZ_FUNCTION_HOST}/data/sessions`
   :
   `${process.env.REACT_APP_JSON_HOST}/data/sessions.json?${new Date().getFullYear()}-${new Date().getMonth() + 1}-${new Date().getDate()}-${new Date().getHours()}`
 
 export const VIDEOS_JSON = (getParameterByName('api') || "") === "click" ?
-  "https://click.m365may.com/data/videos"
+  `${process.env.REACT_APP_AZ_FUNCTION_HOST}/data/videos`
   :
   `${process.env.REACT_APP_JSON_HOST}/data/videos.json?${new Date().getFullYear()}-${new Date().getMonth() + 1}-${new Date().getDate()}-${new Date().getHours()}`
 

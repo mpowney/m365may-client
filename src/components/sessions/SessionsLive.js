@@ -375,11 +375,11 @@ class SessionsLive extends React.Component {
                                     <span>{DateTime.fromISO(session.endsAt).diff(DateTime.fromISO(session.startsAt), 'minutes').minutes} minutes</span>
                                 </div>
                                 <div className="sessionCalendarLink">
-                                    <span><a href={`https://click.m365may.com/calendar/session/${session.id}?ical`} target="_top"><Icon iconName="CalendarReply" /> Add to calendar</a></span>
+                                    <span><a href={`${process.env.REACT_APP_AZ_FUNCTION_HOST}/calendar/session/${session.id}?ical`} target="_top"><Icon iconName="CalendarReply" /> Add to calendar</a></span>
                                 </div>
-                                {session.showLiveLink && <JoinNow href={`https://click.m365may.com/redirect/session/${session.id}/`} label={` Join now`} />}
+                                {session.showLiveLink && <JoinNow href={`${process.env.REACT_APP_AZ_FUNCTION_HOST}/redirect/session/${session.id}/`} label={` Join now`} />}
                                 {(this.state.videosData.filter(video => { return (video.RowKey || video.rowKey) === session.id; }).length > 0) && <div className="sessionVideoLink">
-                                        <span><a href={`https://click.m365may.com/redirect/video/${session.id}/`} target="_blank"><Icon iconName="MSNVideosSolid" /> Watch the recording</a></span>
+                                        <span><a href={`${process.env.REACT_APP_AZ_FUNCTION_HOST}/redirect/video/${session.id}/`} target="_blank"><Icon iconName="MSNVideosSolid" /> Watch the recording</a></span>
                                     </div>}
                             </div>);
 
