@@ -14,7 +14,6 @@ class Session extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
-            videoIconCycle: 1,
             sessionData: null,
             videosData: [],
             isError: false,
@@ -76,7 +75,6 @@ class Session extends React.Component {
             });
         });
 
-        window.setInterval(this.cycleVideoIcons, 500);
         window.setInterval(this.cycleCheckSessions, 20000);
 
     }
@@ -123,16 +121,6 @@ class Session extends React.Component {
         });
     }
 
-    cycleVideoIcons() {
-        let videoIconCycle = this.state.videoIconCycle + 1;
-        if (videoIconCycle > 3) {
-            videoIconCycle = 1;
-        }
-        this.setState({
-            videoIconCycle: videoIconCycle
-        })
-    }
-    
     render() {
 
         const { DateTime } = require("luxon");

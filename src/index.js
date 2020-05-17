@@ -80,15 +80,3 @@ function App() {
 const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
 
-setInterval(function() {
-
-  var body = document.body,
-    html = document.documentElement;
-
-  var height = Math.max( body.scrollHeight, body.offsetHeight, 
-                        html.clientHeight, html.scrollHeight, html.offsetHeight );
-
-  // eslint-disable-next-line no-restricted-globals
-  parent.postMessage(height, "https://www.m365may.com");
-
-},1000);
