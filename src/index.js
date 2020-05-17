@@ -66,8 +66,11 @@ function App() {
             <SessionsLive />
           </Route>
           <Route path="/speaker/:id" component={SpeakerProfile}></Route>
+          <Route path="/speaker-new/:id" component={SpeakerProfile}></Route>
           <Route path="/session/:id" component={Session}></Route>
+          <Route path="/session-new/:id" component={Session}></Route>
           <Route path="/session-details/:id/" component={Session}></Route>
+          <Route path="/session-details-new/:id/" component={Session}></Route>
         </Switch>
       </Router>
     </div>
