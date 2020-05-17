@@ -2,4 +2,11 @@
     font-family: sans-serif;
     text-align: center;
 }
-  
+
+#root th, #root td {
+    border: 0;
+}
+
+#root th {
+    text-align: center;
+}

@@ -317,7 +317,7 @@ class SessionList extends React.Component {
                                     <span>{DateTime.fromISO(session.endsAt).diff(DateTime.fromISO(session.startsAt), 'minutes').minutes} minutes</span>
                                 </div>
                                 <div className="sessionCalendarLink">
-                                    <span><a href={`https://click.m365may.com/calendar/session/${session.id}?ical`} target="_top"><Icon iconName="CalendarReply" /> Add to calendar</a></span>
+                                    <span><a href={`${process.env.REACT_APP_AZ_FUNCTION_HOST}/calendar/session/${session.id}?ical`} target="_top"><Icon iconName="CalendarReply" /> Add to calendar</a></span>
                                 </div>
                             </div>);
 
