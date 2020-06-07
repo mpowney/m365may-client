@@ -10,6 +10,12 @@ This is one of three repo's used to deliver the M365 May session handling. The o
 * [M365 May Admin](https://github.com/mpowney/m365may-admin) client side code to allow event co-ordinators to maintain sessions via this API
 * [M365 May API](https://github.com/mpowney/m365may-api) API built as an Azure Function app container to anonymous and authenticated access to data
 
+The solution requires the following:
+* An event registered with [Sessionize](https://sessionize.com/) to organise the sessions of the event
+
+Additionally, the following API is used:
+* [Free IP Geolocation API](https://freegeoip.app/) to lookup geo location data from IP addresses of users
+
 ## Development environment
 
 The development environment of this repo is Node JS - works well with v10.19.0:
