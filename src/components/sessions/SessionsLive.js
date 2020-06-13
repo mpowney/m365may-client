@@ -17,7 +17,7 @@ class SessionsLive extends React.Component {
         const now = new Date();
         const today = new Date(now.getFullYear(), now.getMonth(),  new Date().getDate());
         const startOfMay = new Date(2020, 4, 1);
-        const endOfMay = new Date(2020, 5, 1);
+        const endOfMay = new Date(2020, 4, 29);
         const dummySession = {
             "questionAnswers": [],
             "id": "0",
